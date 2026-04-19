@@ -1,33 +1,94 @@
 #!/usr/bin/env bash
-# rm-skills installer: symlinks skills/ into ~/.claude/skills/rm so Claude Code discovers them.
+# rm-skills installer.
+#   ./setup               — symlink skills/ into ~/.claude/skills/rm (default)
+#   ./setup --rollback    — restore the most recent backup, removing the symlink
+#   ./setup --check       — print current install state, no changes
+#   ./setup --help        — show this message
 set -euo pipefail
 
 REPO_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 SKILLS_SRC="$REPO_DIR/skills"
 SKILLS_DEST="$HOME/.claude/skills/rm"
+CLAUDE_SKILLS_DIR="$HOME/.claude/skills"
 
-if [ ! -d "$SKILLS_SRC" ]; then
-  echo "error: $SKILLS_SRC does not exist" >&2
-  exit 1
-fi
+cmd="${1:-install}"
 
-mkdir -p "$HOME/.claude/skills"
-
-if [ -L "$SKILLS_DEST" ]; then
-  existing_target="$(readlink "$SKILLS_DEST")"
-  if [ "$existing_target" = "$SKILLS_SRC" ]; then
-    echo "already installed: $SKILLS_DEST -> $SKILLS_SRC"
-    exit 0
+print_state() {
+  if [ -L "$SKILLS_DEST" ]; then
+    echo "state: symlink — $SKILLS_DEST -> $(readlink "$SKILLS_DEST")"
+  elif [ -d "$SKILLS_DEST" ]; then
+    echo "state: real directory at $SKILLS_DEST"
+  elif [ -e "$SKILLS_DEST" ]; then
+    echo "state: unknown non-directory at $SKILLS_DEST"
+  else
+    echo "state: not installed (no $SKILLS_DEST)"
   fi
-  echo "removing existing symlink $SKILLS_DEST (was -> $existing_target)"
-  rm "$SKILLS_DEST"
-elif [ -e "$SKILLS_DEST" ]; then
-  ts="$(date +%Y%m%d-%H%M%S)"
-  backup="$SKILLS_DEST.backup-$ts"
-  echo "backing up existing $SKILLS_DEST -> $backup"
-  mv "$SKILLS_DEST" "$backup"
-fi
+  local backups
+  backups=$(ls -1dt "$SKILLS_DEST".backup-* 2>/dev/null || true)
+  if [ -n "$backups" ]; then
+    echo "backups available (most recent first):"
+    echo "$backups" | sed 's/^/  /'
+  else
+    echo "no backups."
+  fi
+}
 
-ln -s "$SKILLS_SRC" "$SKILLS_DEST"
-echo "installed: $SKILLS_DEST -> $SKILLS_SRC"
-echo "verify: ls $SKILLS_DEST | head"
+install() {
+  if [ ! -d "$SKILLS_SRC" ]; then
+    echo "error: $SKILLS_SRC does not exist" >&2
+    exit 1
+  fi
+  mkdir -p "$CLAUDE_SKILLS_DIR"
+  if [ -L "$SKILLS_DEST" ]; then
+    existing_target="$(readlink "$SKILLS_DEST")"
+    if [ "$existing_target" = "$SKILLS_SRC" ]; then
+      echo "already installed: $SKILLS_DEST -> $SKILLS_SRC"
+      exit 0
+    fi
+    echo "removing existing symlink $SKILLS_DEST (was -> $existing_target)"
+    rm "$SKILLS_DEST"
+  elif [ -e "$SKILLS_DEST" ]; then
+    ts="$(date +%Y%m%d-%H%M%S)"
+    backup="$SKILLS_DEST.backup-$ts"
+    echo "backing up existing $SKILLS_DEST -> $backup"
+    mv "$SKILLS_DEST" "$backup"
+  fi
+  ln -s "$SKILLS_SRC" "$SKILLS_DEST"
+  echo "installed: $SKILLS_DEST -> $SKILLS_SRC"
+  echo "verify: ls $SKILLS_DEST | head"
+}
+
+rollback() {
+  if [ ! -L "$SKILLS_DEST" ] && [ ! -d "$SKILLS_DEST" ] && [ ! -e "$SKILLS_DEST" ]; then
+    echo "nothing installed at $SKILLS_DEST — looking for a backup to restore"
+  fi
+  latest_backup="$(ls -1dt "$SKILLS_DEST".backup-* 2>/dev/null | head -1 || true)"
+  if [ -z "$latest_backup" ]; then
+    echo "error: no $SKILLS_DEST.backup-* found — nothing to roll back to" >&2
+    exit 1
+  fi
+  if [ -L "$SKILLS_DEST" ]; then
+    echo "removing symlink $SKILLS_DEST"
+    rm "$SKILLS_DEST"
+  elif [ -e "$SKILLS_DEST" ]; then
+    echo "error: $SKILLS_DEST exists and is not a symlink — refusing to overwrite. Move it aside first." >&2
+    exit 1
+  fi
+  echo "restoring $latest_backup -> $SKILLS_DEST"
+  mv "$latest_backup" "$SKILLS_DEST"
+  echo "rollback complete."
+}
+
+case "$cmd" in
+  install) install ;;
+  --rollback) rollback ;;
+  --check) print_state ;;
+  --help|-h)
+    sed -n '2,8p' "${BASH_SOURCE[0]}"
+    ;;
+  *)
+    echo "unknown arg: $cmd" >&2
+    echo "run ./setup --help for usage" >&2
+    exit 1
+    ;;
+esac

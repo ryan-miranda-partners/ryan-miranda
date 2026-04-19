@@ -1,6 +1,6 @@
 # rm-skills
 
-Claude Code skills for Ryan-Miranda Partners ops + dev workflows. 26 skills covering team management (sweep, standup, priorities, draft), code lifecycle (review, ship, plan, cso), and safety (careful, freeze, guard-truthly, verify).
+Claude Code skills for Ryan-Miranda Partners ops + dev workflows. 21 skills covering team management (sweep, standup, priorities, draft), code lifecycle (review, ship, plan, cso), and safety (careful, freeze, guard-truthly, verify). Plus shared reference files (CLAUDE.md, memory/, patterns/).
 
 See [skills/CLAUDE.md](skills/CLAUDE.md) for the principles and the full skill table.
 
