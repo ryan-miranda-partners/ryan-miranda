@@ -1,5 +1,17 @@
 # Changelog
 
+## 0.4.0 — 2026-04-19
+
+Documentation.
+
+- `docs/GUIDE.md` — daily playbook. Mental model (skills / brain / agent-logs), workflow (morning sweep → priorities → draft → state; weekly /synth; monthly brain refresh), common commands, how to add a new skill or entity.
+- `docs/TROUBLESHOOTING.md` — symptom → fix. Covers the watermark same-day gap, backfill-overwrote-my-edits recovery, PII-in-brain redaction, symlink + validator diagnostics.
+- `docs/ONBOARDING.md` — intro for a future teammate (Dhrruv, Luke). What to read, what not to touch, how to propose a skill or brain entity.
+- `docs/README.md` — docs index.
+- Rewrote repo-level `README.md` with Start-Here links (GUIDE / ONBOARDING / TROUBLESHOOTING / SECURITY) and an updated layout tree covering `brain/`, `tools/`, `docs/`.
+
+No skill / brain / tool changes.
+
 ## 0.3.0 — 2026-04-19
 
 Forward-synth layer. Brain now stays current automatically (when `/synth` is invoked).
