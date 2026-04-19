@@ -1,5 +1,23 @@
 # Changelog
 
+## 0.2.0 — 2026-04-19
+
+Added the compiled-truth brain layer (draft).
+
+- `brain/README.md` — schema, tier rules, sync cadence, brain-first lookup principle.
+- `brain/people/` — 8 draft pages (Vaibhav, Dhrruv, Vivek, Gaurav, Luke, Matthew, Pijush, Connor).
+- `brain/clients/` — 7 draft pages (Truthly, FCM, Palmetto, RedDoor, Intrinsic, Atlantis, Mozart).
+- `brain/concepts/` — 4 draft pages (TRUTHLYDEV-board, mozart-promotion-pipeline, anthropic-extractor, worktree-cleanup).
+- `tools/backfill-brain.py` — one-time extractor. Grep-based, entity-roster-driven. Writes draft timeline per entity from all 250 agent-logs.
+
+**Status:** every compiled-truth section is a `_Draft seed_` placeholder. Timelines are real and cited. Edward to refine compiled-truth assessments. Mention counts range from 2 (worktree-cleanup) to 172 (Truthly).
+
+**Known issues / expected manual cleanup:**
+- `people/Matthew.md` (99 mentions) likely conflates Matthew Ayers (Truthly iOS) with Matthew at Intrinsic Digital. Split manually during review.
+- `clients/Mozart.md` (135 mentions) mixes client-business mentions with internal mozart code work — both relevant, but assessments should distinguish.
+- `people/Vivek.md` timeline captures "Vivek is no longer on the team as of 2026-04-15" — confirm + update compiled-truth accordingly.
+- Early entries from roster-listing logs (Mar 15) surface low-value "name in a list" mentions. Prune during review.
+
 ## 0.1.1 — 2026-04-19
 
 Hardening pass on the initial import:

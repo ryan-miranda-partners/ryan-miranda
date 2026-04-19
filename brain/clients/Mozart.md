@@ -1,0 +1,156 @@
+---
+name: Mozart
+tier: 1
+last_reviewed: 2026-04-19
+---
+
+# Mozart
+
+## Compiled truth (as of 2026-04-19)
+
+_Draft seed — Edward to refine._
+
+- Paul Ryan, Robert Murner — ad-hoc, not weekly.
+- Mention count in agent-logs: **135** (across 2026-03-15 → 2026-04-19)
+- Role / relationship: _TBD_
+- Current focus: _TBD_
+- Working style: _TBD_
+- Risks / watch-outs: _TBD_
+
+## Timeline
+
+- 2026-03-15 — Main projects: Mozart, Truthly, FCM, Red Door, Gruns, Vienna, Intrinsic Digital, Palmetto, Atlantis — `agent-logs/2026-03-15-priorities-archive-backfill.md`
+- 2026-03-18 — Cross-referenced Slack (#everyone, DMs, product channels), Truthly Jira, Ryan Miranda Jira (Mozart/Palmetto), and GitHub PRs. — `agent-logs/2026-03-18-priorities-session-mar19.md`
+- 2026-03-18 — Mozart Jira Tickets (MOZ board) — `agent-logs/2026-03-18_session.md`
+- 2026-03-19 — Scanned #everyone, #engineering, #truthly, #palmetto, #mozart, #intrinsic, #atlantis, and DM histories for Luke, Vivek, Gaurav, Dhrruv — `agent-logs/2026-03-19-priorities-session-mar20.md`
+- 2026-03-24 — Ran full channel sweep (#everyone, #engineering, #truthly, #palmetto, #mozart, DMs with Matthew and each team member) — `agent-logs/2026-03-24-25_priorities_bridgely_session.md`
+- 2026-03-25 — Full Slack channel sweep (#everyone, #engineering, #truthly, #palmetto, #mozart, #intrinsic-digital, #atlantis, #fernbridge, DMs) — `agent-logs/2026-03-25_sweep.md`
+- 2026-03-26 — Session: Truthly CTO Checklist + Mozart Competitive Strategy — `agent-logs/2026-03-26-truthly-cto-mozart-session.md`
+- 2026-03-27 — everyone, #engineering, #truthly, #mozart: all quiet — `agent-logs/2026-03-27_evening_session.md`
+- 2026-03-27 — Full channel sweep: #everyone, #engineering, #truthly, #palmetto, #mozart, #fernbridge, #intrinsic, #atlantis — `agent-logs/2026-03-27_morning_sweep.md`
+- 2026-03-27 — Mozart Onboarding Fix + Plan Tiers — `agent-logs/2026-03-27_mozart-onboarding-fix.md`
+- 2026-03-27 — Flagged Gaurav visibility gap -- no recent #mozart or #everyone posts — `agent-logs/2026-03-27_truthly_update_and_bugs.md`
+- 2026-03-28 — 7 open PRs across mozart-backend (5) and mozart-frontend (2) — `agent-logs/2026-03-28_mozart-pr-review.md`
+- 2026-03-28 — Removed orphaned Mozart color table — `agent-logs/2026-03-28_rm-skills-cleanup.md`
+- 2026-03-28 — Multiple delta sweeps of #everyone, #truthly, #mozart, #engineering, #palmetto, #atlantis, #fernbridge — `agent-logs/2026-03-28_session.md`
+- 2026-03-28 — | 455 | mozart-backend | Platform modules: Excel, Database, Agents, Extraction, OpenAPI | — `agent-logs/2026-03-28_session1_mozart.md`
+- 2026-03-28 — | 729 | mozart-frontend | Fix XSS: sanitize v-html with DOMPurify (already merged by someone else) | — `agent-logs/2026-03-28_session2_mozart.md`
+- 2026-03-29 — Agent Log: Mozart Deploy Unblock + RAG Resilience — `agent-logs/2026-03-29-mozart-deploy-unblock.md`
+- 2026-03-29 — Mozart backend at /tmp/mozart-backend-fix, branch: development — `agent-logs/2026-03-29-mozart-test-fixes-infra-diagnostics.md`
+- 2026-03-29 — 28 Firebase test files run serially against remote RTDB (`mozart-devs-test.firebaseio.com`) — `agent-logs/2026-03-29-staging-hardening-session.md`
+- 2026-03-29 — Mozart Backend — Detailed Tech Debt Review — `agent-logs/2026-03-29_mozart-backend-review.md`
+- 2026-03-29 — Frontend**: Deployed to Firebase (dev.mozart.la) ✅ — `agent-logs/2026-03-29_session3_mozart.md`
+- 2026-03-29 — Smoke test dev.mozart.la — `agent-logs/2026-03-29_session5_mozart.md`
+- 2026-03-29 — Resumed Mozart work after session 5 — `agent-logs/2026-03-29_session6_mozart.md`
+- 2026-03-29 — 6 PRs merged to `development` on mozart-frontend, covering dependency removal, error handling, image optimization, TypeScript strictness, and bundle optimizatio… — `agent-logs/2026-03-29_session7_frontend-hardening.md`
+- 2026-03-29 — 9 PRs merged to `development` on mozart-backend in a single session — `agent-logs/2026-03-29_session8_backend-tech-debt.md`
+- 2026-03-29 — PR Review & Merge (mozart-frontend) — `agent-logs/2026-03-29_session8_mozart-alt.md`
+- 2026-03-29 — dev.mozart.la was running stale pre-#455 code — `agent-logs/2026-03-29_session9_deploy-unblock.md`
+- 2026-03-29 — Frontend (mozart-frontend PR #754) — `agent-logs/2026-03-29_session9_regression-tests.md`
+- 2026-03-29 — curl -s https://api-dev.mozart.la/api/health — `agent-logs/2026-03-29_session9_test-backend.md`
+- 2026-03-29 — PR #754 merged to `development` on mozart-frontend — `agent-logs/2026-03-29_session9_test-frontend.md`
+- 2026-03-29 — Edward decided to shift Gaurav from Mozart to dedicated Truthly backend — `agent-logs/2026-03-29_sweep_gaurav_backend_priorities.md`
+- 2026-03-30 — Full channel sweep across #everyone, #truthly, #palmetto, #fernbridge, #mozart, #engineering, #product_bugs, #product_design — `agent-logs/2026-03-30_session2.md`
+- 2026-03-31 — Directory:** /Users/edward/Documents/mozart — `agent-logs/2026-03-31_getUsersList-and-coverage.md`
+- 2026-03-31 — PLT-63/73/77 — could not verify, jira-mozart MCP has no access to ryan-miranda.atlassian.net — `agent-logs/2026-03-31_session.md`
+- 2026-03-31 — | ryan-miranda-partners/mozart-rag#31 | mozart-rag | Add Claude PR Review guidelines | 2 weeks (stale) | — `agent-logs/2026-03-31_truthly-ios-pr185-review-vaibhav-check.md`
+- 2026-04-01 — Reviewed all recent PRs on mozart-frontend and mozart-backend `development` branch against Truthly/RM engineering coding standards (9 sections). — `agent-logs/2026-04-01_coding-standards-review-and-models.md`
+- 2026-04-01 — Directory:** /Users/edward/Documents/mozart — `agent-logs/2026-04-01_getUsersList-coverage-and-settings-fix.md`
+- 2026-04-02 — Full channel sweep: #everyone, #engineering, #truthly, #palmetto, #mozart, #intrinsic-digital, #atlantis, Matthew DM — `agent-logs/2026-04-02_evening-sweep.md`
+- 2026-04-02 — Mozart Code CLI Build Session — `agent-logs/2026-04-02_mozart-code-build.md`
+- 2026-04-03 — Scope:** Full audit of mozart-frontend admin/settings API calls vs backend routes — `agent-logs/2026-04-03_admin-api-audit-and-fixes.md`
+- 2026-04-03 — Ran 5 adversarial agents against all recent Mozart workspace updates: — `agent-logs/2026-04-03_adversarial-review-and-phase1.md`
+- 2026-04-03 — Throw away** — dashboards should be in Mozart Frontend Admin (Nuxt 3 + ECharts) — `agent-logs/2026-04-03_anthropic-extractor-research-and-scaffold.md`
+- 2026-04-03 — Directory:** /Users/edward/Documents/mozart — `agent-logs/2026-04-03_coverage-push-and-settings-fix.md`
+- 2026-04-03 — Channels: #everyone, #engineering, #truthly, #palmetto, #mozart, Matthew DM, #intrinsic-digital, #atlantis — `agent-logs/2026-04-03_sweep-and-ab-test-investigation.md`
+- 2026-04-03 — Full channel sweep: #everyone, #engineering, #truthly, #palmetto, #mozart, #intrinsic-digital, #atlantis — `agent-logs/2026-04-03_sweep-priorities-dm.md`
+- 2026-04-04 — Anthropic Extractor — Mozart Integration Session — `agent-logs/2026-04-04_anthropic-extractor-mozart-integration.md`
+- 2026-04-04 — Mozart Backend Staging Review (PR #499) -- 2026-04-04 — `agent-logs/2026-04-04_mozart-backend-staging-review.md`
+- 2026-04-05 — Wired compiled feedback into rm-ops, priorities, and mozart CLAUDE.md files — `agent-logs/2026-04-05-feedback-audit-infrastructure.md`
+- 2026-04-05 — Mozart iOS App -- Built from Scratch — `agent-logs/2026-04-05-mozart-ios-build.md`
+- 2026-04-05 — Mozart iOS App -- Session 2: Polish, Features, Streaming Debug — `agent-logs/2026-04-05-mozart-ios-session2.md`
+- 2026-04-05 — | #496 | mozart-backend | Per-user eviction, Zod hardening, agent schema | — `agent-logs/2026-04-05_adversarial-review-sidebar-auth.md`
+- 2026-04-05 — Context:** All API calls on dev.mozart.la returning 401 Unauthorized since PR #502 added Bearer token support — `agent-logs/2026-04-05_auth-401-fix-staging-promotion-board-audit.md`
+- 2026-04-05 — Mozart PR review dropped from Vivek's priorities** per Edward's direction — `agent-logs/2026-04-05_monday-priorities-and-client-drafts.md`
+- 2026-04-05 — Mozart Code CLI -- Hardening, Standards, Infra Connection — `agent-logs/2026-04-05_mozart-cli-hardening.md`
+- 2026-04-05 — Mozart Code CLI -- Full Session Summary — `agent-logs/2026-04-05_mozart-cli-session-summary.md`
+- 2026-04-05 — Mozart Session: E2E Quarantine, RAG Audit, Infra Consolidation — `agent-logs/2026-04-05_mozart-infra-e2e-rag-audit.md`
+- 2026-04-05 — Mozart Performance Audit and Fixes — `agent-logs/2026-04-05_mozart-performance-audit-and-fixes.md`
+- 2026-04-05 — Fixed the overlapping sidebar sections in Mozart frontend — `agent-logs/2026-04-05_sidebar-modular-refactor-and-agentmd-sweep.md`
+- 2026-04-05 — POST `https://api-dev.mozart.la/api/auth/sign-in/social` returning HTTP 500 with empty body and `content-type: text/html` — `agent-logs/2026-04-05_social-login-500-chat-render-fix.md`
+- 2026-04-05 — tap-anthropic-admin — Repo Setup & Mozart Integration Session — `agent-logs/2026-04-05_tap-anthropic-admin-repo-setup.md`
+- 2026-04-05 — Scope:** mozart-backend, mozart-frontend, mozart-rag (audit only) — `agent-logs/2026-04-05_tech-debt-audit-and-consolidation.md`
+- 2026-04-06 — Mozart:** Internal investment phase — `agent-logs/2026-04-06-intrinsic-discovery-portfolio-audit.md`
+- 2026-04-06 — Swept #everyone, #palmetto, #truthly, #engineering, #mozart + key threads — `agent-logs/2026-04-06-sweep-luke-priorities.md`
+- 2026-04-06 — `src/layouts/mozart-rag-service-admin.vue` -- NuxtPage slot rendering — `agent-logs/2026-04-06_chat-rendering-pipeline-overhaul.md`
+- 2026-04-06 — Mozart Performance Deep Dive -- Phases 1, 2, 3 — `agent-logs/2026-04-06_mozart-performance-deep-dive-phases-1-2-3.md`
+- 2026-04-06 — Mozart MCP Expansion + SOC2 Hardening + Monday Priorities — `agent-logs/2026-04-06_mozart_mcp_expansion.md`
+- 2026-04-07 — 2026-04-07: Mozart Analytics Security Audit, Fixes, and Code Review — `agent-logs/2026-04-07_analytics-security-audit-and-fixes.md`
+- 2026-04-07 — Repos:** mozart-backend, mozart-frontend — `agent-logs/2026-04-07_staging-promotion-review-and-merge.md`
+- 2026-04-07 — Repos:** mozart-backend, mozart-frontend — `agent-logs/2026-04-07_staging-promotion-security-hardening-analytics-fixes.md`
+- 2026-04-08 — Repos:** mozart-backend — `agent-logs/2026-04-08_pr530-ci-fix-and-ci-optimization-prompt.md`
+- 2026-04-09 — Working Directory:** /Users/edward/Documents/mozart — `agent-logs/2026-04-09_full-session-detail.md`
+- 2026-04-09 — Mozart Strategy Reframe + Sheets Path C — 2026-04-09 — `agent-logs/2026-04-09_mozart-strategy-reframe-and-sheets-path-c.md`
+- 2026-04-09 — Mozart Tech Debt Deep Dive + Staging Fix — `agent-logs/2026-04-09_mozart-tech-debt-deep-dive-and-staging-fix.md`
+- 2026-04-09 — Built two major features from research to PRs: Mozart Sheets (internal spreadsheet) and Priorities Upgrade (enhanced daily priorities). — `agent-logs/2026-04-09_sheets-priorities-build.md`
+- 2026-04-09 — Also accidentally created TRTH-64 and TRTH-65 on the Mozart Jira instance (ryan-miranda.atlassian.net) before finding the correct instance — `agent-logs/2026-04-09_truthly-ios-sentry-hang-fixes.md`
+- 2026-04-09 — Posted deletion list to #mozart for team review, flagged Dhrruv on Qdrant status. — `agent-logs/2026-04-09_user-cleanup-qdrant-investigation.md`
+- 2026-04-10 — Mozart Backend — Branch Cleanup Review — `agent-logs/2026-04-10-branch-cleanup-review.md`
+- 2026-04-10 — Mozart CLI Rediscovery + Pickup Plan Session — `agent-logs/2026-04-10_mozart-cli-rediscovery-and-pickup-plan.md`
+- 2026-04-10 — Outcome:** 11 PRs merged to development, 4 new features live on dev.mozart.la — `agent-logs/2026-04-10_workbench-features-full-build-and-security-review.md`
+- 2026-04-11 — Mozart sweep + CLI trigger (catch-up log) — `agent-logs/2026-04-11-mozart-sweep-cli-trigger-35064486-catchup.md`
+- 2026-04-11 — Agent Log — AI Implementer Evaluation + Mozart Tier 3 Session 1 — `agent-logs/2026-04-11_ai-implementer-eval-fenwick-tier3.md`
+- 2026-04-11 — Scope:** Truthly Anthropic Admin API data infrastructure audit, cost breakdown analysis, caching ROI investigation, dbt model design, Phase 1 dashboard handoff… — `agent-logs/2026-04-11_anthropic-data-audit-and-dashboard-framework.md`
+- 2026-04-11 — 2026-04-11 — Mozart Backend: Sheets Analyze Response Shape Fix — `agent-logs/2026-04-11_mozart-backend-sheets-analyze-shape-fix.md`
+- 2026-04-11 — Mozart — Data Platform Research Scaffold — `agent-logs/2026-04-11_mozart-data-platform-scaffold.md`
+- 2026-04-11 — Mozart Excel Optimization + mozart-rag PR — 2026-04-11 — `agent-logs/2026-04-11_mozart-excel-optimization-and-mozart-rag-pr.md`
+- 2026-04-11 — Mozart MCP Production 502 Recovery — Full Session Log — `agent-logs/2026-04-11_mozart-mcp-production-502-recovery.md`
+- 2026-04-11 — Mozart Session — Full Recap (Apr 9 → Apr 11) — `agent-logs/2026-04-11_mozart-session-full-recap.md`
+- 2026-04-11 — Mozart Frontend — Sheets Feature Build + Claude PR Review Workflow Pause — `agent-logs/2026-04-11_mozart-sheets-frontend-and-pr-review-pause.md`
+- 2026-04-11 — Mozart Workflow Consolidation — Handoff Prompt — `agent-logs/2026-04-11_mozart-workflow-consolidation-prompt.md`
+- 2026-04-11 — Mozart admin backend has an `LLM/llm.handler.ts` multi-provider gateway with a real LLM proxy implementation — `agent-logs/2026-04-11_truthly-langfuse-cost-tickets-session.md`
+- 2026-04-11 — Executed the full Mozart spring cleaning: purged 14,530 expired sessions, fixed 21 users with double-encoded JSON, deleted 68 user accounts from Postgres, and p… — `agent-logs/2026-04-11_user-cleanup-execution.md`
+- 2026-04-11 — UNBLOCK: Document table migration (HARD BLOCKER on dev.mozart.la) — `agent-logs/2026-04-11_workbench-phase-2-unblock-and-polish.md`
+- 2026-04-11 — `services/docsService.ts` still referenced `prisma.document.*` — code compiled on the stale Prisma client types, but any runtime CRUD call threw `relation "docu… — `agent-logs/2026-04-11_workbench-security-stripe-docs-imageux-full.md`
+- 2026-04-12 — Feedback rules in play: extract thread context, no RFR tickets as priorities, Mozart is lowest priority, no internal work in client updates — `agent-logs/2026-04-12_everyone-priorities-audit-and-draft-session.md`
+- 2026-04-12 — instance disambiguation (mcp__jira-mozart for MOZ/PLT/DOOR/AT/FCM, — `agent-logs/2026-04-12_memory-validation-scheduled-send-sync-and-docx-format-fix.md`
+- 2026-04-12 — When prioritizing across clients, Atlantis ranks below paying engagements (similar to Mozart per `feedback_mozart_priority.md`). — `agent-logs/2026-04-12_monday-client-updates-batch-set.md`
+- 2026-04-12 — Mozart — RAG Access Diagnosis + Restart Investigation — `agent-logs/2026-04-12_mozart-rag-restart-investigation.md`
+- 2026-04-12 — Mozart sheets workbench — locale init fix (PR #843) + chunk duplication handoff — `agent-logs/2026-04-12_mozart-sheets-locale-fix-and-chunk-duplication-handoff.md`
+- 2026-04-12 — Mozart Backend — feat/sheets-xls-and-formulas (CSV fix + legacy .xls + xlsx CDN pin) — 2026-04-12 — `agent-logs/2026-04-12_mozart-sheets-xls-csv-feature-build-and-pr594.md`
+- 2026-04-12 — Mozart sheets XLS — rebase PR #594 + follow-up PRs #598 and #600 — `agent-logs/2026-04-12_mozart-xls-rebase-594-and-followup-prs-598-600.md`
+- 2026-04-12 — mozart (10 msgs) — `agent-logs/2026-04-12_priorities-verification-deep-sweep-and-karim-response.md`
+- 2026-04-12 — Continues from:** Memory `reference_qdrant_architecture.md`, Slack #mozart thread 2026-04-09 between Edward and Dhrruv, and prior memory `feedback_verify_root_c… — `agent-logs/2026-04-12_rag-outage-diagnosis-fastapi-fix.md`
+- 2026-04-12 — PR:** ryan-miranda-partners/mozart-backend#586 (`fix/websocket-user-namespace-auth-consolidation`) — `agent-logs/2026-04-12_session15-c1-c4-currentnode-injection-notifications.md`
+- 2026-04-12 — Repos touched**: mozart-frontend, mozart-backend — `agent-logs/2026-04-12_session16-deep-audit-and-iteration.md`
+- 2026-04-12 — Constraint: do not mention Mozart at all in the deliverable — `agent-logs/2026-04-12_truthly-auth-better-auth-vs-cognito-review.md`
+- 2026-04-12 — Lesson:** Any DM or channel in a shared/external workspace (Truthly, Palmetto, Mozart client side, FCM, Intrinsic, Atlantis, Red Door) cannot be drafted via MCP — `agent-logs/2026-04-12_truthly-ios-phase1-handoff-matthew-note.md`
+- 2026-04-12 — Edward confirmed he doesn't have a real Truthly secrets config on this machine (only a Mozart one). — `agent-logs/2026-04-12_truthly-ios-pr207-second-review-and-tech-debt-sweep.md`
+- 2026-04-13 — | **Dhrruv** | 2026-04-12 16:42:33 | 4 numbered items: Palmetto #1; FCM once-over (SMTP, M Science, compute); board clearing; Mozart RAG confirm docs/service — `agent-logs/2026-04-13-atlantis-doc-sync-and-priorities-verify.md`
+- 2026-04-13 — Session working directory:** `/Users/edward/Documents/mozart` (unrelated to the task; invoked from the wrong workspace, the actual work lives under `~/Documents… — `agent-logs/2026-04-13-atlantis-weekly-update-verify.md`
+- 2026-04-13 — Session log: Dieter Rams UX research directory + Mozart audit prompt — `agent-logs/2026-04-13-dieter-rams-ux-research.md`
+- 2026-04-13 — Jan 7, 2026 — dinner, referral agreement draft sent ("used Mozart lol") — `agent-logs/2026-04-13-dogoodwork-podcast-prep.md`
+- 2026-04-13 — Mozart U11 — Streaming LLM Partial Writes Fix — `agent-logs/2026-04-13-mozart-U11-streaming-partial-writes-2a711fe6.md`
+- 2026-04-13 — Mozart UX Audit — Rams cross-reference + /verify pass — `agent-logs/2026-04-13-mozart-rams-audit.md`
+- 2026-04-13 — Mozart sheets workbench — @univerjs dedupe fix (PR #845) — `agent-logs/2026-04-13-mozart-univer-dedupe-pr845.md`
+- 2026-04-13 — Mozart sheets workbench — Univer dedupe hardening follow-up (PR #846) — `agent-logs/2026-04-13-mozart-univer-dedupe-pr846-hardening.md`
+- 2026-04-13 — `/Users/edward/Documents/mozart` → `-Users-edward-Documents-mozart`. — `agent-logs/2026-04-13-session-recovery-tidyup.md`
+- 2026-04-13 — `jira-mozart` MCP:** working — `agent-logs/2026-04-13-truthly-langfuse-verify-and-plan-revision.md`
+- 2026-04-13 — | `/Users/edward/Documents/rm-ops/daily/2026-04-13/state_snapshot.md` | **Not touched** — earlier Mozart-session snapshot still in place, separate scope | — `agent-logs/2026-04-13-truthly-matthew-state-and-cadence-framework.md`
+- 2026-04-13 — Active weekly clients (FCM, Truthly, Palmetto, Red Door, Intrinsic, Atlantis, Mozart) don't have `status.md` files at all — they're tracked via the weekly updat… — `agent-logs/2026-04-13_engagements-csv-export.md`
+- 2026-04-13 — 1 critical discovery:** MedEquity / John Taylor has a 2.5-month-unanswered HIPAA-compliant Mozart-shaped RFP from Hadley Ford — hiding inside the BB8/Lillianne… — `agent-logs/2026-04-13_engagements-infrastructure-buildout.md`
+- 2026-04-13 — Mozart Ticketing Audit — Session 2 (Phase 1 execution) — `agent-logs/2026-04-13_mozart-work-vs-ticketing-audit-session2.md`
+- 2026-04-13 — Mozart Work-vs-Ticketing Audit — `agent-logs/2026-04-13_mozart-work-vs-ticketing-audit.md`
+- 2026-04-13 — Run from**: `/Users/edward/Documents/mozart/` — `agent-logs/2026-04-13_session17-parallel-session-collision.md`
+- 2026-04-13 — Session 17 — Mozart URGENT deep-audit continuation — `agent-logs/2026-04-13_session17-urgent-continuation.md`
+- 2026-04-14 — Mozart RAG/Qdrant — confirm fully working end-to-end per Sunday's ask — `agent-logs/2026-04-14-daily-priorities-dhrruv-gaurav-luke.md`
+- 2026-04-14 — Mozart Ticketing Audit — Phase 3 execution (ticket creation for URGENT/HIGH INDEX items) — `agent-logs/2026-04-14_mozart-ticket-audit-phase3.md`
+- 2026-04-14 — Run from**: `/Users/edward/Documents/mozart/` — `agent-logs/2026-04-14_session17-hardening-extension.md`
+- 2026-04-14 — Run from**: `/Users/edward/Documents/mozart/` — `agent-logs/2026-04-14_session18-u11-streaming-atomic-commit.md`
+- 2026-04-15 — Mozart Ticketing Audit — Session Close — `agent-logs/2026-04-15_mozart-ticket-audit-session-close.md`
+- 2026-04-16 — Pulled Confluence runbook "FCM Ops Console Guide" (page 2255552513) via jira-mozart MCP (`/wiki/rest/api/content/...` — discovered this path works for ryan-mira… — `agent-logs/2026-04-16_fcm-self-serve-demo-prep-and-followup.md`
+- 2026-04-16 — Swept all 7 channels (#everyone, #engineering, #truthly, #palmetto, #mozart, #fernbridge, #intrinsic-digital) from last-sweep-ts 1776051118 (~44hr delta) — `agent-logs/2026-04-16_vivek-departure-sweep-transfer-audit.md`
+- 2026-04-17 — Tickets.** Filed PLT-95 through PLT-106 (10 tickets) under epic PLT-3, assigned to Luke, Dhrruv @-mentioned, via `jira-mozart` MCP passthrough (Atlassian MCP cl… — `agent-logs/2026-04-17_palmetto-research-refresh-ticket-batch-and-dhrruv-reconciliation.md`
+- 2026-04-18 — Mozart Infra Research — gstack/gbrain/nimbalyst adaptation — 2026-04-18 — `agent-logs/2026-04-18-mozart-infra-research.md`
+- 2026-04-18 — Mozart — Security batch + PR #722 reconcile — 2026-04-17/18 — `agent-logs/2026-04-18_mozart-security-batch-and-pr722-reconcile.md`
+- 2026-04-19 — Mozart Promotion Pipeline Close — First BE Prod Deploy in 73 Days — `agent-logs/2026-04-19_mozart-promotion-pipeline-close-73-day-prod-deploy.md`

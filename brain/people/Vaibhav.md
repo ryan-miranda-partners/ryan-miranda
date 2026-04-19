@@ -1,0 +1,132 @@
+---
+name: Vaibhav
+tier: 1
+last_reviewed: 2026-04-19
+---
+
+# Vaibhav
+
+## Compiled truth (as of 2026-04-19)
+
+_Draft seed — Edward to refine._
+
+- Lead engineer, Delhi team. Truthly-focused.
+- Mention count in agent-logs: **111** (across 2026-03-15 → 2026-04-18)
+- Role / relationship: _TBD_
+- Current focus: _TBD_
+- Working style: _TBD_
+- Risks / watch-outs: _TBD_
+
+## Timeline
+
+- 2026-03-15 — Tracked 5 team members: Vaibhav, Vivek, Gaurav, Dhrruv, Luke. — `agent-logs/2026-03-15-attendance-tracker-dm-notes.md`
+- 2026-03-15 — Awaiting PR merge confirmation from Dhrruv/Vaibhav:** ID-4, ID-5, ID-31, ID-35, ID-36, ID-38, ID-41 — `agent-logs/2026-03-15-jira-intrinsic-cleanup.md`
+- 2026-03-15 — Team members in this period: Vaibhav Prakash, Vivek Mudgal, Dhrruv Tokas, Pijush Ray Mondal (earlier), Connor Dailey, Luke Dias, Ben Furtado (joined Dec 2025),… — `agent-logs/2026-03-15-priorities-archive-backfill.md`
+- 2026-03-18 — | Vaibhav | **NOT SENT** | iOS PR 158 review + TestFlight is #1 — `agent-logs/2026-03-18-priorities-session-mar19.md`
+- 2026-03-18 — Drafted priorities for all 5 team members (Vaibhav, Vivek, Gaurav, Dhrruv, Luke) — `agent-logs/2026-03-18_session.md`
+- 2026-03-19 — Vaibhav — LD A/B test experiment as #1 (committed to Karim), streaming animations, deploy 725 with Vivek, Google Ads email, weekend support ask — `agent-logs/2026-03-19-priorities-session-mar20.md`
+- 2026-03-24 — Vaibhav delivered massively: 816 (iOS A/B), 822 (timeout fix), 800 (Android web search), daily reading overrides — `agent-logs/2026-03-24-25_priorities_bridgely_session.md`
+- 2026-03-25 — Vaibhav investigating LD experiment freeze (PR #82 lead) — `agent-logs/2026-03-25_sweep.md`
+- 2026-03-27 — Vaibhav Monday return priorities not drafted — `agent-logs/2026-03-27_evening_session.md`
+- 2026-03-27 — Monday: Vaibhav returns, iOS polishing release, MOZ-1637 closure — `agent-logs/2026-03-27_full_day.md`
+- 2026-03-27 — Vaibhav out today, Vivek leading Truthly — `agent-logs/2026-03-27_morning_sweep.md`
+- 2026-03-27 — Quiet day (Friday, Easter freeze, Vaibhav out) — `agent-logs/2026-03-27_truthly_update_and_bugs.md`
+- 2026-03-28 — 3/28 has subject typo ("3/28/27") and missing vaibhav/dhrruv/luke from BCC. — `agent-logs/2026-03-28_session.md`
+- 2026-03-29 — Status:** Slack draft posted in #mozart asking Gaurav/Vaibhav/Vivek to cross-check JWT secrets — `agent-logs/2026-03-29-mozart-deploy-unblock.md`
+- 2026-03-29 — Corrections: PR #86 already merged (removed from Vivek), backend PR #6 is Vaibhav's not Gaurav's, Edward's open iOS PRs are #177/#178 not generic "A/B fixes," P… — `agent-logs/2026-03-29_sweep_gaurav_backend_priorities.md`
+- 2026-03-29 — Vaibhav's 3 case study packages, Giuseppe's behavioral round, 100-point rubric, pain points (no-shows, ChatGPT cheating, Ben Furtado attitude issue). — `agent-logs/2026-03-29_truthly_hiring_framework.md`
+- 2026-03-30 — dhrruv and vaibhav missing. — `agent-logs/2026-03-30_session.md`
+- 2026-03-30 — Vaibhav:** A/B test PR #177 reviewed (found LD randomization unit change needed), Android UI fixes PR #89 shipped, daily readings overrides through Apr 5 — `agent-logs/2026-03-30_session2.md`
+- 2026-03-31 — @Vaibhav and @Vivek to divide the 7 new tickets — `agent-logs/2026-03-31_design-triage.md`
+- 2026-03-31 — Vaibhav: PRs #183, #184 created — `agent-logs/2026-03-31_session.md`
+- 2026-03-31 — Truthly iOS PR #185 Review + Vaibhav Status Check — `agent-logs/2026-03-31_truthly-ios-pr185-review-vaibhav-check.md`
+- 2026-04-02 — Read all threads with replies (Luke Red Door thread, Karim A/B thread, Jake/Liz build changes, Vivek gift card, Vaibhav chat history, Matthew QA/Kenny, Dhrruv C… — `agent-logs/2026-04-02_evening-sweep.md`
+- 2026-04-03 — A/B test moved to 80/20** — Edward + Vaibhav executed Apr 2 ~1am — `agent-logs/2026-04-03_sweep-and-ab-test-investigation.md`
+- 2026-04-03 — Edward posted short directional priorities for Vaibhav, Dhrruv, Vivek, Gaurav — `agent-logs/2026-04-03_sweep-priorities-dm.md`
+- 2026-04-03 — [ ] Vaibhav to review the iOS branch (`feature/anthropic-cost-reduction`) — `agent-logs/2026-04-03_truthly-anthropic-cost-reduction.md`
+- 2026-04-05 — FCM:** Missing vaibhav in BCC — `agent-logs/2026-04-05-client-updates-all-six.md`
+- 2026-04-05 — Stale "In Progress" (Vaibhav -- allocated to Truthly) — `agent-logs/2026-04-05_auth-401-fix-staging-promotion-board-audit.md`
+- 2026-04-05 — Vaibhav shifts from IC to manager.** Hiring catch-up, 1v1 with Gaurav (863 alignment), 1v1 with Vivek (backend accountability) — `agent-logs/2026-04-05_monday-priorities-and-client-drafts.md`
+- 2026-04-05 — Team communicated in #everyone: Vaibhav (review), Vivek (awareness), Gaurav (Android), Luke (monitor costs) — `agent-logs/2026-04-05_tap-anthropic-admin-and-cost-analysis.md`
+- 2026-04-05 — Found 4 branches (not just the one originally asked about), analyzed overlap, defined rollout order, created PRs, labeled them, rebased/fixed branches, and post… — `agent-logs/2026-04-05_truthly-llm-cost-pr-rollout.md`
+- 2026-04-06 — Updated Challenge: TRUTHLYDEV-834 now "implemented and in review" (Vaibhav completed 4/4 with PR) — `agent-logs/2026-04-06-client-updates-review-final.md`
+- 2026-04-06 — To: Jerome, Alexis | CC: Ops, Luke, Dhrruv | BCC: vaibhav (cannot confirm) — `agent-logs/2026-04-06-final-scrutiny-all-six.md`
+- 2026-04-06 — Vaibhav** - Sprint execution plans posted for Gaurav/Vivek — `agent-logs/2026-04-06-sweep-luke-priorities.md`
+- 2026-04-06 — Vaibhav validated LLM cost Step 1, agreed with Edward to combine Steps 1+2 — `agent-logs/2026-04-06_mozart_mcp_expansion.md`
+- 2026-04-08 — Vaibhav's promo code refactor (commit `c6aa382`, replacing PromoCodeManager with Apple Offer Code flow) is on `feature/migrate_promo_code_service_to_asc` -- a f… — `agent-logs/2026-04-08_truthly-promo-code-triage-and-plans.md`
+- 2026-04-09 — Per-person priorities (Vaibhav, Vivek, Gaurav, Dhrruv, Luke) — `agent-logs/2026-04-09_full-session-detail.md`
+- 2026-04-09 — Sessions covered:** Sentry alert remediation batch, LLM cost savings deep-dive, iOS/Android context window verification, post-merge reconciliation with Vaibhav'… — `agent-logs/2026-04-09_sentry-remediation-batch.md`
+- 2026-04-09 — vaibhav+test@ryan-miranda.com — `agent-logs/2026-04-09_user-cleanup-qdrant-investigation.md`
+- 2026-04-10 — Per-person sections sorted by `TEAM_ORDER = ["Vaibhav", "Vivek", "Gaurav", "Dhrruv", "Luke"]` — `agent-logs/2026-04-10_workbench-features-full-build-and-security-review.md`
+- 2026-04-11 — Apr 6 04:18 PT — Vaibhav: PRs 196+197+198 actioned, merge order confirmed — `agent-logs/2026-04-11_anthropic-data-audit-and-dashboard-framework.md`
+- 2026-04-11 — JIRA_API_TOKEN (vaibhav@ryan-miranda.com's Atlassian token) — `agent-logs/2026-04-11_mozart-mcp-production-502-recovery.md`
+- 2026-04-11 — iOS PR #203:** hang fixes for Sentry/ATT/audio/WebView/error messaging/MapKit, reviews requested from Vaibhav + Vivek. — `agent-logs/2026-04-11_mozart-session-full-recap.md`
+- 2026-04-11 — Team: Vaibhav (Lead, 100% Truthly), Dhrruv (Senior IC, Palmetto + Truthly data), Vivek (iOS/Backend, Truthly mobile + Mozart FE), Gaurav (Backend, part-time → f… — `agent-logs/2026-04-11_mozart-workflow-consolidation-prompt.md`
+- 2026-04-11 — Vaibhav (Apr 6, #truthly): Detailed caching analysis — 47% input savings in testing, 14-turn conversations drop from $0.56 to $0.30, raised web search opt-in qu… — `agent-logs/2026-04-11_truthly-anthropic-cost-reduction-analysis.md`
+- 2026-04-11 — Agent 2 (Vaibhav RfR, 10 tickets)** — TRUTHLYDEV-989, 988, 302, 565, 715, 834, 835, 889, 903, 904 — `agent-logs/2026-04-11_truthly-jira-closure-sweep.md`
+- 2026-04-11 — Reasons: matches existing Truthly backend deployment pattern (Vaibhav/Vivek/Dhrruv can support without learning a new platform); auto-restart and rolling deploy… — `agent-logs/2026-04-11_truthly-langfuse-cost-tickets-session.md`
+- 2026-04-11 — Draft a DM to Vivek + Vaibhav about cleanup status — `agent-logs/2026-04-11_user-cleanup-execution.md`
+- 2026-04-12 — Edward had just posted initial #everyone priorities for Vaibhav, Dhrruv, and Vivek (16:31-16:44 PDT on 2026-04-12) and asked for: — `agent-logs/2026-04-12_everyone-priorities-audit-and-draft-session.md`
+- 2026-04-12 — submitted Apr 9 ~20:33 PT; Apr 11 tech debt agreement (Vaibhav dedicated — `agent-logs/2026-04-12_memory-validation-scheduled-send-sync-and-docx-format-fix.md`
+- 2026-04-12 — Para 3 Bold BCC: vaibhav, dhrruv, luke @ryan-miranda.com — `agent-logs/2026-04-12_monday-client-updates-batch-set.md`
+- 2026-04-12 — Found older 2024-08 Vaibhav threads** confirming the Azure migration: *"all the collection data from our previous qdrant instance is now migrated to Azure hoste… — `agent-logs/2026-04-12_mozart-rag-restart-investigation.md`
+- 2026-04-12 — Truthly-backend #7** (Vaibhav, 13 days old, `CHANGES_REQUESTED` since 2026-03-31) — **stale**, needs push or close. — `agent-logs/2026-04-12_mozart-xls-rebase-594-and-followup-prs-598-600.md`
+- 2026-04-12 — The session also caught the very-fresh Karim 19:37 PDT 4-item ask in #engineering and watched Vaibhav turn around all four items plus draft Edward's response wi… — `agent-logs/2026-04-12_priorities-verification-deep-sweep-and-karim-response.md`
+- 2026-04-12 — az aks list -o table # per Vaibhav 2024-09-25: Qdrant runs on AKS, 1 persistence + 1 spot node — `agent-logs/2026-04-12_rag-outage-diagnosis-fastapi-fix.md`
+- 2026-04-12 — Most recent merged PR:** #108 (Vaibhav, "Fix chat animation glitch and audio player positioning"), merged 2026-04-11 18:16 UTC — `agent-logs/2026-04-12_truthly-ios-phase1-handoff-matthew-note.md`
+- 2026-04-12 — Authorization:** Matthew Ayers DM'd Edward at 10:45 PDT saying "Sure thing!" pre-authorizing solo push to TestFlight + Internal Testing today; Vaibhav Prakash u… — `agent-logs/2026-04-12_truthly-ios-phase1-merge-deploy-debug.md`
+- 2026-04-12 — With proper §5 metadata: `chatWebSearchEnabled` (owner: Vaibhav Prakash), `chatClaudeDefaultEnabled` (owner: Vaibhav Prakash), `dailyReadingsV2Enabled` (May 1 t… — `agent-logs/2026-04-12_truthly-ios-pr207-second-review-and-tech-debt-sweep.md`
+- 2026-04-12 — Draft note for `#truthly` (both Vaibhav + Vivek) — `agent-logs/2026-04-12_truthly-ios-testflight-fix-and-android-cost-savings-prs.md`
+- 2026-04-12 — Vaibhav owns Track B (Android instrumentation) — `agent-logs/2026-04-12_truthly-rovo-filing-corrections-gameplan.md`
+- 2026-04-13 — The draft metadata had BCC `vaibhav@, dhrruv@, luke@` per CLAUDE.md team-visibility rule; assumption: Edward didn't modify the recipient fields in Word, only th… — `agent-logs/2026-04-13-atlantis-doc-sync-and-priorities-verify.md`
+- 2026-04-13 — BCC:** vaibhav@ryan-miranda.com, dhrruv@ryan-miranda.com, luke@ryan-miranda.com — `agent-logs/2026-04-13-atlantis-weekly-update-verify.md`
+- 2026-04-13 — Step 1 is a Vaibhav investigation, not a config flip.** Would save ~22.8% on follow-up turns once unblocked — `agent-logs/2026-04-13-session-recovery-tidyup.md`
+- 2026-04-13 — Step 1 is a Vaibhav investigation, not a config flip.** — `agent-logs/2026-04-13-truthly-backend-quickwins-fa2e6c7e.md`
+- 2026-04-13 — File TRUTHLYDEV-XXXX for the font-shuffle regression** (the original 2026-04-11 bug Vaibhav flipped the flag for) — `agent-logs/2026-04-13-truthly-copy-paste-phase1.md`
+- 2026-04-13 — Impact:** Phase 1 (Android, 4-6 hr Vaibhav) is the cheapest/fastest leg — `agent-logs/2026-04-13-truthly-langfuse-verify-and-plan-revision.md`
+- 2026-04-13 — Truthly-backend has only one open PR (#7 — Vaibhav's deployment vars) — `agent-logs/2026-04-13-truthly-llm-cost-jira-cleanup.md`
+- 2026-04-13 — Backend: 1 stale from Vaibhav (PR #7, Changes Requested Mar 31) — `agent-logs/2026-04-13-truthly-matthew-state-and-cadence-framework.md`
+- 2026-04-13 — Action:** Transfer OWNER to Matthew (Truthly CTO) or Vaibhav — `agent-logs/2026-04-13_engagements-infrastructure-buildout.md`
+- 2026-04-13 — MOZ-1648** — transitioned to `Done` today 2026-04-13 at 18:38 local by Vaibhav, *after* the audit research ran at 07:54 — `agent-logs/2026-04-13_mozart-work-vs-ticketing-audit-session2.md`
+- 2026-04-13 — Key threads: Mozart CLI naming ("Maestro" or "MCL"), Vaibhav Claude PR review rollout across 4 repos, Edward RAG 401 debug thread, Edward Keycloak decommission… — `agent-logs/2026-04-13_mozart-work-vs-ticketing-audit.md`
+- 2026-04-13 — 2026-04-07 Edward (relaying Vaibhav): "Android Token optimization — Reviewed caching-related data in Mixpanel and aligned Android with the same approach — `agent-logs/2026-04-13_truthly-mixpanel-cost-observability.md`
+- 2026-04-14 — Both Matthew and Vaibhav approved. — `agent-logs/2026-04-14-android-pr-triage-and-ci-pipefail.md`
+- 2026-04-14 — Edward had already posted #everyone priorities for Vaibhav and Vivek tonight (4/14 17:59 and 18:01 PDT) — `agent-logs/2026-04-14-daily-priorities-dhrruv-gaurav-luke.md`
+- 2026-04-14 — Vaibhav (imvprakash-rm) had already approved both — `agent-logs/2026-04-14-ios-pr211-pr212-matthew-review-response.md`
+- 2026-04-14 — Vaibhav approved it earlier today** (2026-04-14T06:21:18Z); a new commit was added at 07:23Z on top normalizing Anthropic `end_turn` → `stop` (the finish-reason… — `agent-logs/2026-04-14-truthly-android-cost-prs-audit-and-ship.md`
+- 2026-04-14 — | 114 | TRUTHLYDEV-1043: History cap 10 + cold-start routing default + max_tokens 3200 guardrail | eryanRM | +74 / −12, 7 files | Approved by Vaibhav, mergeable… — `agent-logs/2026-04-14-truthly-android-pr-reviews-114-116-117.md`
+- 2026-04-14 — `/tmp/vaibhav-sql-guide.txt`** — SQL reference guide for Vaibhav to query Anthropic costs, Mixpanel cost attribution, heavy users, marathon conversations, and o… — `agent-logs/2026-04-14-truthly-cost-pipeline-catchup-and-analysis.md`
+- 2026-04-14 — | #112 | Android | Open | Green | Needs review | Vaibhav reviewing | — `agent-logs/2026-04-14-truthly-cross-platform-pr-audit-and-review-fixes.md`
+- 2026-04-14 — | 114 | **MERGED 20:21:19** (squash `7ca9df4`) | eryanRM | green | APPROVED by Vaibhav, **CHANGES_REQUESTED by Matthew** at the time | — | — `agent-logs/2026-04-14-truthly-ios-cost-savings-prs-landed.md`
+- 2026-04-14 — Vaibhav (imvprakash-rm):** APPROVED (2026-04-14T07:34) — `agent-logs/2026-04-14-truthly-ios-pr-review-status-audit.md`
+- 2026-04-14 — PR #102 (Apr 7, Vaibhav's team, commit `9d30b64`) — "Step 3: Android prompt caching & maxUses reduction" — added the parser (`anthropicStreamTokenUsage.ts`) + t… — `agent-logs/2026-04-14-truthly-mixpanel-p1-p5-sweep-and-pr211.md`
+- 2026-04-14 — `truthly/android-app-secrets` (ARN `...secret:truthly/android-app-secrets-SOmMZX`, created 2026-01-08, last changed 2026-04-14 05:59 PDT — that's Vaibhav's rota… — `agent-logs/2026-04-14-truthly-opus-on-android-key-investigation.md`
+- 2026-04-14 — Edward force-pushed over with `84ffcdc`** (single-commit clean rebuild that intentionally reverts Vaibhav's 300-line file split — `ChatConstants+Analytics.swift… — `agent-logs/2026-04-14-truthly-pr-cleanup-merges-and-cascade.md`
+- 2026-04-14 — Separate from #211 so Vaibhav/Vivek/Matthew can approve independently without disturbing #211's existing approval. — `agent-logs/2026-04-14-truthly-thresholds-research-ios-ld-flag.md`
+- 2026-04-14 — Late-session discovery** that PR #207's iOS LD flag key was typo'd, which reframed T19 hotfix urgency (dropped, then climbed back after Vaibhav's LD alias worka… — `agent-logs/2026-04-14_truthly-chat-perf-research-tickets-and-mcp-filing.md`
+- 2026-04-15 — Edward asked to check whether the iOS LD flag-key issue (Haiku routing bug) was resolved, triple-check every claim in memory against live state, recommend next… — `agent-logs/2026-04-15_ios-haiku-routing-workaround-verification.md`
+- 2026-04-15 — Edward (or Vaibhav) creates the 4 new LD flags in the dashboard with correct defaults and `model-routing-enabled` targeting mirroring `chat-model-routing-enable… — `agent-logs/2026-04-15_truthly-android-pr117-pr116-pr119-merge-triage.md`
+- 2026-04-15 — The Vaibhav Apr 13/14 DM check confirmed the LD dashboard is correctly serving `true`, but couldn't have detected the iOS-side typo because LD only sees evaluat… — `agent-logs/2026-04-15_truthly-cost-dashboard-decoder-fix-and-haiku-flag-discovery.md`
+- 2026-04-15 — Edward explicitly decided to drop the rotation workstream from the execution plan ("let's remove the key rotation prompt") — the cost stays for now because the… — `agent-logs/2026-04-15_truthly-cost-phase3-ld-flag-bug-findings.md`
+- 2026-04-15 — Slack DM archaeology — "was the typo ever discussed with Vaibhav?" — NO.** — `agent-logs/2026-04-15_truthly-cost-resume-android-typo-confirmation.md`
+- 2026-04-15 — Discovered Vaibhav had already created the alias LD flag (`model-routing-enabled`) without being explicitly told to, and traffic had flipped 13× to it. — `agent-logs/2026-04-15_truthly-cost-resume-ld-flag-verification-closeout.md`
+- 2026-04-15 — 2026-04-15 — Truthly cost savings: wave-3 execution kickoff, iOS worktree setup, Vaibhav DM draft — `agent-logs/2026-04-15_truthly-cost-wave3-execution-ios-worktree-vaibhav-dm.md`
+- 2026-04-15 — iOS Haiku routing still at 0.034% on Apr 15** despite Vaibhav's LD alias flag — `agent-logs/2026-04-15_truthly-data-model-audit.md`
+- 2026-04-15 — The LD alias flag Vaibhav added Apr 15 is not moving iOS traffic in any meaningful amount yet — `agent-logs/2026-04-15_truthly-db-catchup-maxtokens-verify.md`
+- 2026-04-15 — Who:** Edward (self-merge fine; or hand to Vivek/Vaibhav for review first). — `agent-logs/2026-04-15_truthly-ios-1.7.7-chat-polish-pr.md`
+- 2026-04-15 — Review and merge PR #219 (or hand to Vivek/Vaibhav for review first) — `https://github.com/Truthly-App/Truthly-ios/pull/219`. — `agent-logs/2026-04-15_truthly-mixpanel-baseline-blocked.md`
+- 2026-04-15 — Force-push authorization** to publish commits 1-6 → flip PR #213 to ready-for-review → request reviewers (Vaibhav, Vivek, both?). — `agent-logs/2026-04-15_truthly-pr213-phase1-polish-and-silent-drop-fixes.md`
+- 2026-04-15 — Assignee left blank on all 5.** Drafts had suggestions (Vaibhav on Android, iOS owner of #207 on iOS widen) but no accountIds available via MCP and CLAUDE.md sa… — `agent-logs/2026-04-15_truthly-pr219-merge-phase2-attribution-correction-and-tickets.md`
+- 2026-04-16 — REASSIGN-VAIBHAV: 8 tickets — `agent-logs/2026-04-16-truthly-jira-closure-sweep.md`
+- 2026-04-16 — | **#114** | TRUTHLYDEV-1043 history cap 10 + cold-start routing default + max_tokens 3200 | Edward | 2026-04-14 20:21 PDT | Approved by Vaibhav (10:47) + Matth… — `agent-logs/2026-04-16_android-pr-review-session-114-116-117-118-close-out.md`
+- 2026-04-16 — Push `fix/chat-input-composer-overlap` + `gh pr create` with prepared body, reviewer: Vaibhav (Vivek is no longer on the team as of 2026-04-15). — `agent-logs/2026-04-16_truthly-chat-input-composer-overflow-fix.md`
+- 2026-04-16 — TRUTHLYDEV-979 international bug + subscription → **Vaibhav** — `agent-logs/2026-04-16_truthly-cost-apr12-15-causation-and-gameplan.md`
+- 2026-04-16 — Vaibhav merged TRUTHLYDEV-1091 today (14:16 UTC) titled "Fix LD flag key mismatch and harmonize model-routing fallback." Key finding that contradicts Apr-15 mem… — `agent-logs/2026-04-16_truthly-haiku-routing-classifier-widening-plan.md`
+- 2026-04-16 — Reviewer requested on all 5:** `vaibhav-prakash` — `agent-logs/2026-04-16_truthly-ios-chat-input-polish-ship.md`
+- 2026-04-16 — Author:** @imvprakash-rm (Vaibhav) — `agent-logs/2026-04-16_truthly-web-pr70-matthew-review-comparison.md`
+- 2026-04-16 — Edward wants everything reassigned to himself for now — not redistributed to Vaibhav/Gaurav yet. — `agent-logs/2026-04-16_vivek-departure-sweep-transfer-audit.md`
+- 2026-04-17 — Captured 4/16 material that the prior snapshot missed: PR #31 (UX polish, Vaibhav), PR #32 (chat cache + warm endpoint, Dhrruv), Ed's team-wide pivot to Palmett… — `agent-logs/2026-04-17_palmetto-research-refresh-ticket-batch-and-dhrruv-reconciliation.md`
+- 2026-04-17 — LD flags: Vaibhav confirmed all 4 created + device-tested at 03:35 PDT (Slack C09JWU9BA8Z thread 1776409274) — `agent-logs/2026-04-17_truthly-cost-savings-check-web-default-off.md`
+- 2026-04-17 — Thread reply to Vaibhav in #truthly https://ryan-miranda.slack.com/archives/C09JWU9BA8Z/p1776409263335109?thread_ts=1776408411.883029 — `agent-logs/2026-04-17_truthly-cost-throttle-ios-1100-rollout.md`
+- 2026-04-17 — Drafted 4/17 covering the Cantey credentials unblock, Vaibhav's PR #31 UX polish, Dhrruv's PR #32 query cache, GCP project creation, Monday 4/20 10:15 ET Jerome… — `agent-logs/2026-04-17_weekly-updates-all-clients-and-three-replies.md`
+- 2026-04-18 — Tag Vaibhav. — `agent-logs/2026-04-18_truthly-cost-savings-web-default-off-progress.md`

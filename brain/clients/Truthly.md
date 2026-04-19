@@ -1,0 +1,193 @@
+---
+name: Truthly
+tier: 1
+last_reviewed: 2026-04-19
+---
+
+# Truthly
+
+## Compiled truth (as of 2026-04-19)
+
+_Draft seed — Edward to refine._
+
+- Flagship client. iOS + Android + backend. Jacob, Zac, Karim primary contacts.
+- Mention count in agent-logs: **172** (across 2026-03-15 → 2026-04-18)
+- Role / relationship: _TBD_
+- Current focus: _TBD_
+- Working style: _TBD_
+- Risks / watch-outs: _TBD_
+
+## Timeline
+
+- 2026-03-15 — Jira Truthly Access Check — `agent-logs/2026-03-15-jira-truthly-access-check.md`
+- 2026-03-15 — Main projects: Mozart, Truthly, FCM, Red Door, Gruns, Vienna, Intrinsic Digital, Palmetto, Atlantis — `agent-logs/2026-03-15-priorities-archive-backfill.md`
+- 2026-03-17 — Truthly CTO Negotiation — Full Day Session — `agent-logs/2026-03-17-truthly-cto-negotiation-session.md`
+- 2026-03-18 — Cross-referenced Slack (#everyone, DMs, product channels), Truthly Jira, Ryan Miranda Jira (Mozart/Palmetto), and GitHub PRs. — `agent-logs/2026-03-18-priorities-session-mar19.md`
+- 2026-03-18 — Truthly User Segment CSV — QA & EDA Session — `agent-logs/2026-03-18-truthly-csv-qa-eda.md`
+- 2026-03-18 — Truthly Jira Tickets (TRUTHLYDEV board) — `agent-logs/2026-03-18_session.md`
+- 2026-03-19 — Scanned #everyone, #engineering, #truthly, #palmetto, #mozart, #intrinsic, #atlantis, and DM histories for Luke, Vivek, Gaurav, Dhrruv — `agent-logs/2026-03-19-priorities-session-mar20.md`
+- 2026-03-24 — Ran full channel sweep (#everyone, #engineering, #truthly, #palmetto, #mozart, DMs with Matthew and each team member) — `agent-logs/2026-03-24-25_priorities_bridgely_session.md`
+- 2026-03-25 — Full Slack channel sweep (#everyone, #engineering, #truthly, #palmetto, #mozart, #intrinsic-digital, #atlantis, #fernbridge, DMs) — `agent-logs/2026-03-25_sweep.md`
+- 2026-03-26 — Session: Truthly CTO Checklist + Mozart Competitive Strategy — `agent-logs/2026-03-26-truthly-cto-mozart-session.md`
+- 2026-03-26 — Drafted and Edward sent Vivek DM re: 697 PR + Friday Truthly leadership — `agent-logs/2026-03-26_sweep_and_research.md`
+- 2026-03-27 — Truthly PIIA Review, Checklist Consolidation & Send — `agent-logs/2026-03-27-truthly-piia-review-and-send.md`
+- 2026-03-27 — everyone, #engineering, #truthly, #mozart: all quiet — `agent-logs/2026-03-27_evening_session.md`
+- 2026-03-27 — Edward communicated this in #truthly — `agent-logs/2026-03-27_full_day.md`
+- 2026-03-27 — Full channel sweep: #everyone, #engineering, #truthly, #palmetto, #mozart, #fernbridge, #intrinsic, #atlantis — `agent-logs/2026-03-27_morning_sweep.md`
+- 2026-03-27 — Repo:** Truthly-App/Truthly-ios — `agent-logs/2026-03-27_pr169-review.md`
+- 2026-03-27 — Agent Log: Truthly Update Draft + Chat Bug Triage — `agent-logs/2026-03-27_truthly_update_and_bugs.md`
+- 2026-03-28 — Truthly — `agent-logs/2026-03-28_client_updates_batch.md`
+- 2026-03-28 — Updated `/pr-status` with missing repos (Truthly-App/ios, android, backend + palmetto-infra) and recently-merged check — `agent-logs/2026-03-28_rm-skills-cleanup.md`
+- 2026-03-28 — Multiple delta sweeps of #everyone, #truthly, #mozart, #engineering, #palmetto, #atlantis, #fernbridge — `agent-logs/2026-03-28_session.md`
+- 2026-03-29 — Root cause:** `jira-mozart` MCP server was using the Truthly API token, not a ryan-miranda token. — `agent-logs/2026-03-29-mozart-deploy-unblock.md`
+- 2026-03-29 — Saved channel IDs to memory: #mozart, #mozart-product-mlaw, #engineering, #ext-truthly-development — `agent-logs/2026-03-29-mozart-test-fixes-infra-diagnostics.md`
+- 2026-03-29 — Headline:** Both Truthly releases shipped Saturday (iOS 1.7.3, Android 1.6.0) — `agent-logs/2026-03-29_sweep_gaurav_backend_priorities.md`
+- 2026-03-29 — Truthly Hiring Framework -- Session Log — `agent-logs/2026-03-29_truthly_hiring_framework.md`
+- 2026-03-30 — Truthly:** Edward heavily rewrote — `agent-logs/2026-03-30_session.md`
+- 2026-03-30 — Full channel sweep across #everyone, #truthly, #palmetto, #fernbridge, #mozart, #engineering, #product_bugs, #product_design — `agent-logs/2026-03-30_session2.md`
+- 2026-03-30 — Truthly CC missing vivek, gaurav, dhrruv (draft error carried through) — `agent-logs/2026-03-30_weekly-update-audit.md`
+- 2026-03-31 — Trigger:** Edward's prompt to triage Jake's 12 iOS design items against TRUTHLYDEV and TD boards — `agent-logs/2026-03-31_design-triage.md`
+- 2026-03-31 — TRUTHLYDEV-838, 863, 560, 725 — all accurate — `agent-logs/2026-03-31_session.md`
+- 2026-03-31 — Truthly iOS PR #185 Review + Vaibhav Status Check — `agent-logs/2026-03-31_truthly-ios-pr185-review-vaibhav-check.md`
+- 2026-04-01 — Reviewed all recent PRs on mozart-frontend and mozart-backend `development` branch against Truthly/RM engineering coding standards (9 sections). — `agent-logs/2026-04-01_coding-standards-review-and-models.md`
+- 2026-04-02 — Full channel sweep: #everyone, #engineering, #truthly, #palmetto, #mozart, #intrinsic-digital, #atlantis, Matthew DM — `agent-logs/2026-04-02_evening-sweep.md`
+- 2026-04-02 — `api.truthly.ai/v2/readings/2026-04-04` (Easter Vigil) is returning stale/old data — `agent-logs/2026-04-02_matthew-dm-v2-readings-review.md`
+- 2026-04-03 — Directory:** `~/Documents/rm-ops/truthly/anthropic-extractor/` — `agent-logs/2026-04-03_anthropic-extractor-research-and-scaffold.md`
+- 2026-04-03 — Channels: #everyone, #engineering, #truthly, #palmetto, #mozart, Matthew DM, #intrinsic-digital, #atlantis — `agent-logs/2026-04-03_sweep-and-ab-test-investigation.md`
+- 2026-04-03 — Full channel sweep: #everyone, #engineering, #truthly, #palmetto, #mozart, #intrinsic-digital, #atlantis — `agent-logs/2026-04-03_sweep-priorities-dm.md`
+- 2026-04-03 — Truthly Anthropic API Cost Reduction — Session Log — `agent-logs/2026-04-03_truthly-anthropic-cost-reduction.md`
+- 2026-04-04 — Directory:** `~/Documents/rm-ops/truthly/anthropic-extractor/` + Mozart repos — `agent-logs/2026-04-04_anthropic-extractor-mozart-integration.md`
+- 2026-04-04 — Truthly Easter Vigil Android Review — 2026-04-04 — `agent-logs/2026-04-04_truthly-easter-vigil-android-review.md`
+- 2026-04-05 — Truthly** — `agent-logs/2026-04-05-client-updates-all-six.md`
+- 2026-04-05 — TRUTHLYDEV board at 100 tickets** — bulk-move of stale 300-500 range bugs to Backlog still hasn't happened. — `agent-logs/2026-04-05-feedback-audit-infrastructure.md`
+- 2026-04-05 — Pill-shaped input with integrated paperclip + send button (Truthly-inspired) — `agent-logs/2026-04-05-mozart-ios-build.md`
+- 2026-04-05 — Stale "In Progress" (Vaibhav -- allocated to Truthly) — `agent-logs/2026-04-05_auth-401-fix-staging-promotion-board-audit.md`
+- 2026-04-05 — Luke transitions to Truthly.** Red Door done — `agent-logs/2026-04-05_monday-priorities-and-client-drafts.md`
+- 2026-04-05 — Standards audit (against Truthly AGENT.md) — `agent-logs/2026-04-05_mozart-cli-hardening.md`
+- 2026-04-05 — Agent Log: tap-anthropic-admin + Truthly Cost Analysis — `agent-logs/2026-04-05_tap-anthropic-admin-and-cost-analysis.md`
+- 2026-04-05 — Instructions at `~/Documents/rm-ops/truthly/anthropic-extractor/MOZART_INTEGRATION.md` — `agent-logs/2026-04-05_tap-anthropic-admin-repo-setup.md`
+- 2026-04-05 — Audited all PRs against Truthly Engineering Standards — `agent-logs/2026-04-05_tech-debt-audit-and-consolidation.md`
+- 2026-04-05 — Truthly LLM Cost Reduction — PR Rollout Plan — `agent-logs/2026-04-05_truthly-llm-cost-pr-rollout.md`
+- 2026-04-06 — Objective:** Review, verify, and finalize remaining Truthly and Palmetto drafts — `agent-logs/2026-04-06-client-updates-review-final.md`
+- 2026-04-06 — TRUTHLY — NOT SCHEDULED — `agent-logs/2026-04-06-final-scrutiny-all-six.md`
+- 2026-04-06 — Truthly:** High velocity — `agent-logs/2026-04-06-intrinsic-discovery-portfolio-audit.md`
+- 2026-04-06 — Swept #everyone, #palmetto, #truthly, #engineering, #mozart + key threads — `agent-logs/2026-04-06-sweep-luke-priorities.md`
+- 2026-04-06 — Truthly update not yet sent — `agent-logs/2026-04-06_mozart_mcp_expansion.md`
+- 2026-04-08 — Truthly Promo Code Triage & Plan Refinement — `agent-logs/2026-04-08_truthly-promo-code-triage-and-plans.md`
+- 2026-04-09 — Truthly Android — LLM Cost & Session Tracking Audit — `agent-logs/2026-04-09_android-llm-cost-session-tracking-audit.md`
+- 2026-04-09 — Audit Against Truthly Engineering Standards — `agent-logs/2026-04-09_full-session-detail.md`
+- 2026-04-09 — Capacity is existential risk: 1-1.5 FTE on Mozart while running Truthly + Palmetto + FCM — `agent-logs/2026-04-09_mozart-strategy-reframe-and-sheets-path-c.md`
+- 2026-04-09 — Vivek's Anthropic "malformed payload" finding (TRUTHLYDEV-983) — `agent-logs/2026-04-09_sentry-remediation-batch.md`
+- 2026-04-09 — Truthly iOS — Sentry App Hang Fixes — `agent-logs/2026-04-09_truthly-ios-sentry-hang-fixes.md`
+- 2026-04-10 — Full `/sweep` across #mozart, #everyone, #engineering, #truthly, #palmetto, #fernbridge, #intrinsic-digital — `agent-logs/2026-04-10_mozart-cli-rediscovery-and-pickup-plan.md`
+- 2026-04-11 — Scope:** Truthly Anthropic Admin API data infrastructure audit, cost breakdown analysis, caching ROI investigation, dbt model design, Phase 1 dashboard handoff… — `agent-logs/2026-04-11_anthropic-data-audit-and-dashboard-framework.md`
+- 2026-04-11 — Two Jira MCP servers are configured**: `mcp__jira-mozart__` (Mozart project, key `MOZ`) and `mcp__jira-truthly__` (TRUTHLYDEV, protected by `guard-truthly` skil… — `agent-logs/2026-04-11_mozart-backend-sheets-analyze-shape-fix.md`
+- 2026-04-11 — `project_mozart_capital_scaling.md` — Still true: Truthly CTO, capital access, three verticals — `agent-logs/2026-04-11_mozart-excel-optimization-and-mozart-rag-pr.md`
+- 2026-04-11 — Pulled 7 channels in parallel: #mozart, #everyone, #engineering, #truthly, #palmetto, #fernbridge, #intrinsic-digital — `agent-logs/2026-04-11_mozart-session-full-recap.md`
+- 2026-04-11 — Team: Vaibhav (Lead, 100% Truthly), Dhrruv (Senior IC, Palmetto + Truthly data), Vivek (iOS/Backend, Truthly mobile + Mozart FE), Gaurav (Backend, part-time → f… — `agent-logs/2026-04-11_mozart-workflow-consolidation-prompt.md`
+- 2026-04-11 — Agent Log: Truthly Anthropic Cost Reduction Analysis — `agent-logs/2026-04-11_truthly-anthropic-cost-reduction-analysis.md`
+- 2026-04-11 — TRUTHLYDEV Jira Closure Sweep — 2026-04-11 — `agent-logs/2026-04-11_truthly-jira-closure-sweep.md`
+- 2026-04-11 — Truthly — Langfuse rollout plan + cost-savings ticket drafts (PM session, high-detail) — `agent-logs/2026-04-11_truthly-langfuse-cost-tickets-session.md`
+- 2026-04-11 — Vivek's Truthly update:** https://ryan-miranda.slack.com/archives/CH35Q9G7Q/p1775835817504529 — `agent-logs/2026-04-11_user-cleanup-execution.md`
+- 2026-04-12 — Outcome:** 6 PRs open (2 new: dbt-truthly#4, Truthly-infra#2; 2 new code fixes: android#110, ios#208; 2 pre-existing Haiku routing coordinated: android#109, ios… — `agent-logs/2026-04-12_anthropic-cost-dashboard-and-cache-fix-session.md`
+- 2026-04-12 — Then iteratively: additions for Vaibhav (Pricing A/B Variant A), a Vivek handoff line for TRUTHLYDEV-302, FCM additions for Dhrruv + Vaibhav with an M Science c… — `agent-logs/2026-04-12_everyone-priorities-audit-and-draft-session.md`
+- 2026-04-12 — mcp__jira-truthly or Rovo for TRUTHLYDEV), GitHub repos, and the structured — `agent-logs/2026-04-12_memory-validation-scheduled-send-sync-and-docx-format-fix.md`
+- 2026-04-12 — Drafted the full set of Monday client updates: FCM, Truthly, Palmetto, Red Door, Intrinsic Digital, Atlantis — `agent-logs/2026-04-12_monday-client-updates-batch-set.md`
+- 2026-04-12 — Second attempt came through: **Xcode with the Truthly iOS project open on the General tab** (sections visible: Supported Destinations, Minimum Deployments, Iden… — `agent-logs/2026-04-12_mozart-rag-restart-investigation.md`
+- 2026-04-12 — Truthly iOS: PR #207 reviews, Phase 1 merge/deploy/debug, Matthew handoff, Haiku routing, ruleset restore — `agent-logs/2026-04-12_mozart-sheets-xls-csv-feature-build-and-pr594.md`
+- 2026-04-12 — Truthly-backend #7** (Vaibhav, 13 days old, `CHANGES_REQUESTED` since 2026-03-31) — **stale**, needs push or close. — `agent-logs/2026-04-12_mozart-xls-rebase-594-and-followup-prs-598-600.md`
+- 2026-04-12 — TRUTHLYDEV-302 — Ready for Review under Vaibhav, originally Vivek's, assigned to Vivek 4/9 — `agent-logs/2026-04-12_priorities-verification-deep-sweep-and-karim-response.md`
+- 2026-04-12 — AWS Truthly account read (wrong account) | ~10 min | Initial AWS creds were Truthly, not Mozart — `agent-logs/2026-04-12_rag-outage-diagnosis-fastapi-fix.md`
+- 2026-04-12 — Truthly Phase 1 Cost Reduction — Android Lane Pause & Handoff — `agent-logs/2026-04-12_truthly-android-phase1-pause-and-handoff.md`
+- 2026-04-12 — Truthly auth review: better-auth vs Cognito pressure test — `agent-logs/2026-04-12_truthly-auth-better-auth-vs-cognito-review.md`
+- 2026-04-12 — title: Truthly iOS Phase 1 — Matthew note + manual TF attempt + close-out — `agent-logs/2026-04-12_truthly-ios-phase1-handoff-matthew-note.md`
+- 2026-04-12 — Truthly iOS Phase 1 Cost Reduction — Sunday Emergency Override Session — `agent-logs/2026-04-12_truthly-ios-phase1-merge-deploy-debug.md`
+- 2026-04-12 — Truthly iOS PR #207 Review — Haiku Model Routing + AGENT.md Compliance — `agent-logs/2026-04-12_truthly-ios-pr207-review-haiku-routing.md`
+- 2026-04-12 — Truthly iOS — PR #207 Second Review, Critical Bug Find, and Tech-Debt Sweep — `agent-logs/2026-04-12_truthly-ios-pr207-second-review-and-tech-debt-sweep.md`
+- 2026-04-12 — Next-session kick-off prompt — Truthly iOS tech-debt work — `agent-logs/2026-04-12_truthly-ios-tech-debt-next-steps-prompt.md`
+- 2026-04-12 — 2026-04-12 — Truthly iOS TestFlight deploy fix + Android cost-savings PR review actioning — `agent-logs/2026-04-12_truthly-ios-testflight-fix-and-android-cost-savings-prs.md`
+- 2026-04-12 — Truthly cost optimization — Rovo filing + corrections + gameplan PDF — `agent-logs/2026-04-12_truthly-rovo-filing-corrections-gameplan.md`
+- 2026-04-13 — Hold on TRUTHLYDEV-302 (Jake rejected) — `agent-logs/2026-04-13-atlantis-doc-sync-and-priorities-verify.md`
+- 2026-04-13 — Used client-domain queries (fernbridgecap.com, palmettoproactive.com, etc.), subject-based queries (kickoff, launch, SOW, incident, demo, Mozart, Truthly). — `agent-logs/2026-04-13-dogoodwork-podcast-prep.md`
+- 2026-04-13 — Module 4: Hopeful flip (tension: "that is not the episode" → turn: same wave, different direction → proof: Cursor/Midjourney/YC/Qwen/Llama → Catholic frame: sub… — `agent-logs/2026-04-13-dogoodwork-subsidiarity-segment.md`
+- 2026-04-13 — Nothing touched in:** `mozart-backend`, any `Truthly-*` repos, `rm-ops`, any of Edward's other clients — `agent-logs/2026-04-13-mozart-univer-dedupe-pr845.md`
+- 2026-04-13 — Its Truthly/Palmetto/FCM/etc — `agent-logs/2026-04-13-mozart-univer-dedupe-pr846-hardening.md`
+- 2026-04-13 — 23:00 rm-ops-truthly — draft note to myself in Slack DMs — `agent-logs/2026-04-13-session-recovery-tidyup.md`
+- 2026-04-13 — Truthly — Backend Lowest-Hanging-Fruit Wins — `agent-logs/2026-04-13-truthly-backend-quickwins-fa2e6c7e.md`
+- 2026-04-13 — Truthly Copy/Paste Rewrite — Phase 1 Session Log — `agent-logs/2026-04-13-truthly-copy-paste-phase1.md`
+- 2026-04-13 — Truthly — Langfuse /verify pass + plan revision + sequencing clarification — `agent-logs/2026-04-13-truthly-langfuse-verify-and-plan-revision.md`
+- 2026-04-13 — Truthly LLM Cost — PR #211 audit, architectural findings, ticket cleanup, closure list rebuild — `agent-logs/2026-04-13-truthly-llm-cost-jira-cleanup.md`
+- 2026-04-13 — Agent Log — Truthly / Matthew state report + new daily cadence framework — `agent-logs/2026-04-13-truthly-matthew-state-and-cadence-framework.md`
+- 2026-04-13 — Truthly — Mixpanel NEXT_SESSION_PROMPT Priorities 1→5 — `agent-logs/2026-04-13-truthly-mixpanel-next-session-priorities.md`
+- 2026-04-13 — Active weekly clients (FCM, Truthly, Palmetto, Red Door, Intrinsic, Atlantis, Mozart) don't have `status.md` files at all — they're tracked via the weekly updat… — `agent-logs/2026-04-13_engagements-csv-export.md`
+- 2026-04-13 — Passive access loose ends confirmed:** Sentry TDU (9.7k errors/week) + Meltano (200+ alerts/45d) + PARTNERSUBSCRIBERSYNC-1 (unknown, 1 fire) + Vercel Truthly OW… — `agent-logs/2026-04-13_engagements-infrastructure-buildout.md`
+- 2026-04-13 — 2026-04-13 — Truthly Mixpanel cost observability build-out — `agent-logs/2026-04-13_truthly-mixpanel-cost-observability.md`
+- 2026-04-14 — Pulled current state of Truthly-android PRs #114, #116, #117 (all `CHANGES_REQUESTED` by Matthew). — `agent-logs/2026-04-14-android-pr-triage-and-ci-pipefail.md`
+- 2026-04-14 — Finish TRUTHLYDEV-544 AWS SDK setup — secrets + finalize branch today. — `agent-logs/2026-04-14-daily-priorities-dhrruv-gaurav-luke.md`
+- 2026-04-14 — Branch:** `claude/fix-ios-reading-update-2siiO` (on Truthly-App/Truthly-ios) — `agent-logs/2026-04-14-ios-pr211-pr212-matthew-review-response.md`
+- 2026-04-14 — TRUTHLYDEV-1054 — Chat idle rollover LD flag scaffolding — `agent-logs/2026-04-14-truthly-1054-chat-idle-rollover-scaffolding.md`
+- 2026-04-14 — Truthly — Android cost PRs: audit → implement → ship (TRUTHLYDEV-1015) — `agent-logs/2026-04-14-truthly-android-cost-prs-audit-and-ship.md`
+- 2026-04-14 — 2026-04-14 — Truthly Android PR E: Runtime-tunable cost flags — `agent-logs/2026-04-14-truthly-android-pr-e-runtime-cost-flags.md`
+- 2026-04-14 — 2026-04-14 — Truthly Android PR reviews (114, 116, 117) + code landing on 117 + CI ticket — `agent-logs/2026-04-14-truthly-android-pr-reviews-114-116-117.md`
+- 2026-04-14 — Session Log: Truthly Cost Pipeline Catchup & Analysis — `agent-logs/2026-04-14-truthly-cost-pipeline-catchup-and-analysis.md`
+- 2026-04-14 — | 3 | Android #115 closed, replaced by #116 (TRUTHLYDEV-1046) | Non-issue | **Audit updated** | — `agent-logs/2026-04-14-truthly-cross-platform-pr-audit-and-review-fixes.md`
+- 2026-04-14 — Truthly iOS — LLM cost-savings PRs landed (session close-out) — `agent-logs/2026-04-14-truthly-ios-cost-savings-prs-landed.md`
+- 2026-04-14 — Truthly iOS — Matthew's PR feedback actioned; PR #214 handoff — `agent-logs/2026-04-14-truthly-ios-matthew-feedback-actions-and-214-handoff.md`
+- 2026-04-14 — Truthly iOS PR Review Status Audit — `agent-logs/2026-04-14-truthly-ios-pr-review-status-audit.md`
+- 2026-04-14 — Truthly LLM Cost Optimization — Design Call Decision List — `agent-logs/2026-04-14-truthly-llm-cost-design-call-decisions.md`
+- 2026-04-14 — Truthly — Mixpanel P1→P5 sweep + iOS PR #211 finish-reason fix — `agent-logs/2026-04-14-truthly-mixpanel-p1-p5-sweep-and-pr211.md`
+- 2026-04-14 — Truthly — Opus on Android Anthropic key investigation — `agent-logs/2026-04-14-truthly-opus-on-android-key-investigation.md`
+- 2026-04-14 — Truthly — iOS/Android PR cleanup session: #214 finalize, #215 clear, #114 merge, #118 flake triage — `agent-logs/2026-04-14-truthly-pr-cleanup-merges-and-cascade.md`
+- 2026-04-14 — Agent Log — Truthly Thresholds Research + iOS LD-Tunable max_tokens Flag — `agent-logs/2026-04-14-truthly-thresholds-research-ios-ld-flag.md`
+- 2026-04-14 — Truthly Chat Performance — Research → Validation → Tickets → MCP Filing — `agent-logs/2026-04-14_truthly-chat-perf-research-tickets-and-mcp-filing.md`
+- 2026-04-14 — Truthly cost research + Haiku-after-turn-N branches + tickets — `agent-logs/2026-04-14_truthly-cost-research-haiku-turn-n-branches.md`
+- 2026-04-15 — | iOS develop still has typo at line 258 | `git show develop:Services/FeatureFlags/FeatureFlagService.swift \| sed -n '258p'` in `/Users/edward/Documents/Truthl… — `agent-logs/2026-04-15_ios-haiku-routing-workaround-verification.md`
+- 2026-04-15 — No Truthly / Palmetto / FCM / Intrinsic / Atlantis / Red Door status checks — `agent-logs/2026-04-15_mozart-ticket-audit-session-close.md`
+- 2026-04-15 — Session:** rm-ops/truthly — `agent-logs/2026-04-15_sentry-error-audit-and-tap-sentry.md`
+- 2026-04-15 — Truthly Android — PR #117 / #116 / #119 merge triage and ship — `agent-logs/2026-04-15_truthly-android-pr117-pr116-pr119-merge-triage.md`
+- 2026-04-15 — 2026-04-15 — Truthly cost dashboard refresh + cache_creation decoder hotfix + iOS Haiku LD flag typo discovery — `agent-logs/2026-04-15_truthly-cost-dashboard-decoder-fix-and-haiku-flag-discovery.md`
+- 2026-04-15 — 2026-04-15 — Truthly cost observability: Phase 3, LD flag-key bug, Opus pricing bug, data model comprehensiveness — `agent-logs/2026-04-15_truthly-cost-phase3-ld-flag-bug-findings.md`
+- 2026-04-15 — 2026-04-15 PM — Truthly cost-savings resume: Android LD flag-key typo confirmed — `agent-logs/2026-04-15_truthly-cost-resume-android-typo-confirmation.md`
+- 2026-04-15 — 2026-04-15 PM — Truthly cost-savings: LD alias flag verification, Android typo correction, TRUTHLYDEV-1073 filed (close-out) — `agent-logs/2026-04-15_truthly-cost-resume-ld-flag-verification-closeout.md`
+- 2026-04-15 — 2026-04-15 — Truthly cost savings: wave-3 execution kickoff, iOS worktree setup, Vaibhav DM draft — `agent-logs/2026-04-15_truthly-cost-wave3-execution-ios-worktree-vaibhav-dm.md`
+- 2026-04-15 — Truthly data-model audit — 2026-04-15 PM — `agent-logs/2026-04-15_truthly-data-model-audit.md`
+- 2026-04-15 — Truthly DB catch-up + max-output-tokens lever verification — `agent-logs/2026-04-15_truthly-db-catchup-maxtokens-verify.md`
+- 2026-04-15 — Truthly iOS 1.7.7 chat polish — session log — `agent-logs/2026-04-15_truthly-ios-1.7.7-chat-polish-pr.md`
+- 2026-04-15 — Truthly TTFT baseline — BLOCKED on two gates — `agent-logs/2026-04-15_truthly-mixpanel-baseline-blocked.md`
+- 2026-04-15 — 2026-04-15 — Truthly PR #213 Phase 1 polish, silent-drop bug fixes, AGENT.md compliance — `agent-logs/2026-04-15_truthly-pr213-phase1-polish-and-silent-drop-fixes.md`
+- 2026-04-15 — 2026-04-15 — Truthly PR #219 AGENT.md polish + Matthew review prep — `agent-logs/2026-04-15_truthly-pr219-agent-md-polish.md`
+- 2026-04-15 — PR:** https://github.com/truthly-inc/ios/pull/219 — `agent-logs/2026-04-15_truthly-pr219-matthew-review-response.md`
+- 2026-04-15 — resume_prompt: /Users/edward/Documents/rm-ops/truthly/llm-cost-research/savings-status-2026-04-14/RESUME_PROMPT.md — `agent-logs/2026-04-15_truthly-pr219-merge-phase2-attribution-correction-and-tickets.md`
+- 2026-04-16 — TRUTHLYDEV Jira Closure Sweep — 2026-04-15/16 — `agent-logs/2026-04-16-truthly-jira-closure-sweep.md`
+- 2026-04-16 — | **#114** | TRUTHLYDEV-1043 history cap 10 + cold-start routing default + max_tokens 3200 | Edward | 2026-04-14 20:21 PDT | Approved by Vaibhav (10:47) + Matth… — `agent-logs/2026-04-16_android-pr-review-session-114-116-117-118-close-out.md`
+- 2026-04-16 — The `mcp__claude_ai_Atlassian__*` tools only have truthly-ai access. — `agent-logs/2026-04-16_fcm-self-serve-demo-prep-and-followup.md`
+- 2026-04-16 — 2026-04-16 — Truthly chat-input composer overflow fix (branch `fix/chat-input-composer-overlap`) — `agent-logs/2026-04-16_truthly-chat-input-composer-overflow-fix.md`
+- 2026-04-16 — 2026-04-16 — Truthly cost Apr 12→15 causation analysis + deployed-state audit + revised gameplan — `agent-logs/2026-04-16_truthly-cost-apr12-15-causation-and-gameplan.md`
+- 2026-04-16 — 2026-04-16 — Truthly cost throttle: p99 design → $600/day hard mandate → iOS audit handoff — `agent-logs/2026-04-16_truthly-cost-throttle-p99-to-600-mandate-investigation.md`
+- 2026-04-16 — 2026-04-16 — Truthly Haiku routing: classifier widening plan — `agent-logs/2026-04-16_truthly-haiku-routing-classifier-widening-plan.md`
+- 2026-04-16 — Scope:** Truthly iOS — five small UX polish fixes shipped as independent PRs. — `agent-logs/2026-04-16_truthly-ios-chat-input-polish-ship.md`
+- 2026-04-16 — Truthly iOS — Copy/Paste Pressure Test + Jira Consolidation — `agent-logs/2026-04-16_truthly-ios-copy-paste-pressure-test-and-jira-consolidation.md`
+- 2026-04-16 — Truthly iOS PR 221 — Matthew review feedback actioned — `agent-logs/2026-04-16_truthly-ios-pr221-matthew-feedback.md`
+- 2026-04-16 — 2026-04-16 — Truthly iOS PR 222–225 Matthew feedback sweep + AGENT.md audit — `agent-logs/2026-04-16_truthly-ios-pr222-225-matthew-feedback-sweep.md`
+- 2026-04-16 — Truthly-iOS: Matthew's CHANGES_REQUESTED fixes for PRs #223 / #224 / #225 — `agent-logs/2026-04-16_truthly-ios-pr223-224-225-matthew-fixes-pushed.md`
+- 2026-04-16 — PR:** https://github.com/truthly-inc/web/pull/70 — `agent-logs/2026-04-16_truthly-web-pr70-matthew-review-comparison.md`
+- 2026-04-16 — Swept all 7 channels (#everyone, #engineering, #truthly, #palmetto, #mozart, #fernbridge, #intrinsic-digital) from last-sweep-ts 1776051118 (~44hr delta) — `agent-logs/2026-04-16_vivek-departure-sweep-transfer-audit.md`
+- 2026-04-17 — Repo:** truthly-inc/ios — `agent-logs/2026-04-17-ios-prs-221-225-merge.md`
+- 2026-04-17 — 2026-04-17 / 2026-04-18 UTC — iOS PRs #232/#233 actioned + Truthly-web PR #71 review prepped — `agent-logs/2026-04-17-ios-prs-232-233-and-web-pr71-review.md`
+- 2026-04-17 — Truthly iOS PR #233 — Sentry APPLE-IOS-13 Review — `agent-logs/2026-04-17-truthly-ios-pr233-sentry-review.md`
+- 2026-04-17 — Repo:** truthly-inc/ios — `agent-logs/2026-04-17_ios-pr-226-ci-timeout-and-infra-bump.md`
+- 2026-04-17 — Scope:** Truthly-App/Truthly-ios PRs #228 (TRUTHLYDEV-565 Dynamic Type) and #226 (TRUTHLYDEV-1100 daily token budget) — `agent-logs/2026-04-17_ios-prs-228-226-feedback-push-and-ld-killswitch.md`
+- 2026-04-17 — Every attempt returned `Cloud id c10b9164-2085-42b7-96c3-2ec6c1102bad isn't explicitly granted by the user.` Only truthly-ai is on the Atlassian MCP grant — `agent-logs/2026-04-17_red-door-sang-pricing-prep.md`
+- 2026-04-17 — 2026-04-17 — Truthly cost savings status + web-default-off discovery — `agent-logs/2026-04-17_truthly-cost-savings-check-web-default-off.md`
+- 2026-04-17 — Session log — 2026-04-17 Truthly cost-throttle iOS rollout (TRUTHLYDEV-1100) — `agent-logs/2026-04-17_truthly-cost-throttle-ios-1100-rollout.md`
+- 2026-04-17 — `/Users/edward/Documents/rm-ops/truthly/llm-cost-research/user-token-distribution/` — `agent-logs/2026-04-17_user-token-distribution-swift-plots.md`
+- 2026-04-17 — Five more baselines in parallel.** Fired research agents for FCM, Truthly, RedDoor, IntrinsicDigital, Atlantis — `agent-logs/2026-04-17_weekly-updates-all-clients-and-three-replies.md`
+- 2026-04-18 — 2026-04-18 — auth.truthly.ai PR 1 AGENT.md-standards review — `agent-logs/2026-04-18-auth-pr1-agent-md-review.md`
+- 2026-04-18 — Matthew posted 5 PRs ready for review in #engineering (C0AT96WBTK4, msg 1776531247.147069 at 09:54 PDT): web#72, support.truthly.ai#1, signup.truthly.ai#1, gift… — `agent-logs/2026-04-18-matthew-5-auth-consumer-prs-review-pass.md`
+- 2026-04-18 — Follow-up security commits landed as **PR 72** (`fix: security hardening for auth.truthly.ai migration`, branch `feature/auth-truthly-ai-migration`). — `agent-logs/2026-04-18-matthew-pr72-pr234-agent-reviews.md`
+- 2026-04-18 — 2026-04-18 UTC — Truthly-web PR #71: APPROVE posted + two CSO follow-ups — `agent-logs/2026-04-18-truthly-web-pr71-approve-and-cso-followups.md`
+- 2026-04-18 — 2026-04-18 UTC — Truthly-web PR #71: second-pass review after Matthew's SEC-1..SEC-4 commit — `agent-logs/2026-04-18-truthly-web-pr71-second-pass-after-matthew-sec-fixes.md`
+- 2026-04-18 — 2026-04-18 — Truthly 1.7.8 submit + LD cost levers flipped on + Haiku prompt plumbing ticket — `agent-logs/2026-04-18_truthly-1.7.8-submit-and-copy-paste-dark-launch.md`
+- 2026-04-18 — Session log — 2026-04-18 Truthly cost-throttle Android 1100 (shelved) — `agent-logs/2026-04-18_truthly-cost-android-1100-shelved.md`
+- 2026-04-18 — Truthly cost — Apr 18 72h gameplan drafted — `agent-logs/2026-04-18_truthly-cost-apr-18-gameplan.md`
+- 2026-04-18 — 2026-04-18 — Truthly cost savings / web-default-off progress — `agent-logs/2026-04-18_truthly-cost-savings-web-default-off-progress.md`
