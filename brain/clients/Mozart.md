@@ -154,3 +154,4 @@ _Draft seed — Edward to refine._
 - 2026-04-18 — Mozart Infra Research — gstack/gbrain/nimbalyst adaptation — 2026-04-18 — `agent-logs/2026-04-18-mozart-infra-research.md`
 - 2026-04-18 — Mozart — Security batch + PR #722 reconcile — 2026-04-17/18 — `agent-logs/2026-04-18_mozart-security-batch-and-pr722-reconcile.md`
 - 2026-04-19 — Mozart Promotion Pipeline Close — First BE Prod Deploy in 73 Days — `agent-logs/2026-04-19_mozart-promotion-pipeline-close-73-day-prod-deploy.md`
+- 2026-04-19 — `clients/Mozart.md` (135 mentions) mixes client-business with internal mozart code work. — `agent-logs/2026-04-19-rm-skills-repo-and-brain-backfill.md`

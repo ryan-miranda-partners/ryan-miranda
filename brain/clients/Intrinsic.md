@@ -38,3 +38,4 @@ _Draft seed — Edward to refine._
 - 2026-04-12 — Inbound client emails from fernbridgecap.com / truthly.ai / palmettoproactive.com / intrinsicdigital.com — `agent-logs/2026-04-12_mozart-sheets-xls-csv-feature-build-and-pr594.md`
 - 2026-04-13 — Intrinsic Digital — `client-updates/IntrinsicDigital/` — `agent-logs/2026-04-13_engagements-infrastructure-buildout.md`
 - 2026-04-17 — Five more baselines in parallel.** Fired research agents for FCM, Truthly, RedDoor, IntrinsicDigital, Atlantis — `agent-logs/2026-04-17_weekly-updates-all-clients-and-three-replies.md`
+- 2026-04-19 — `people/Matthew.md` (99 mentions) conflates Matthew Ayers (Truthly iOS) with Matthew at Intrinsic Digital — `agent-logs/2026-04-19-rm-skills-repo-and-brain-backfill.md`

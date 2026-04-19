@@ -71,3 +71,4 @@ _Draft seed — Edward to refine._
 - 2026-04-17 — Palmetto PR #35 (PLT-106) — Review & Merge — `agent-logs/2026-04-17_palmetto-pr35-plt106-review-merge.md`
 - 2026-04-17 — Palmetto / AI-ME — Research Refresh, Ticket Batch, and Dhrruv Reconciliation — `agent-logs/2026-04-17_palmetto-research-refresh-ticket-batch-and-dhrruv-reconciliation.md`
 - 2026-04-17 — Palmetto draft.** Archived the 4/13 update (had been sent but not archived) — `agent-logs/2026-04-17_weekly-updates-all-clients-and-three-replies.md`
+- 2026-04-19 — Clients: Truthly 172 · Mozart 135 · FCM 55 · Palmetto 52 · Atlantis 41 · RedDoor 37 · Intrinsic 19 — `agent-logs/2026-04-19-rm-skills-repo-and-brain-backfill.md`

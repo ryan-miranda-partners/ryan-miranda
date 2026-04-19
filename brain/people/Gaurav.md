@@ -91,3 +91,4 @@ _Draft seed — Edward to refine._
 - 2026-04-17 — TRUTHLYDEV-864 ETA from Gaurav → unlocks backend levers — `agent-logs/2026-04-17_truthly-cost-savings-check-web-default-off.md`
 - 2026-04-17 — TRUTHLYDEV-1101 — needs Dhrruv/Gaurav to verify new key is live before revoke — `agent-logs/2026-04-17_truthly-cost-throttle-ios-1100-rollout.md`
 - 2026-04-18 — CLAUDE.md files drift from memory.** `rm/CLAUDE.md` lists "Gaurav (full-time May)" but memory shows he declined May 1 on Apr 3 — `agent-logs/2026-04-18-mozart-infra-research.md`
+- 2026-04-19 — People: Vaibhav 111 · Matthew 99 · Vivek 81 · Gaurav 72 · Dhrruv 64 · Luke 46 · Connor 8 · Pijush 5 — `agent-logs/2026-04-19-rm-skills-repo-and-brain-backfill.md`

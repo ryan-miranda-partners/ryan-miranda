@@ -65,3 +65,4 @@ _Draft seed — Edward to refine._
 - 2026-04-17 — Tickets.** Filed PLT-95 through PLT-106 (10 tickets) under epic PLT-3, assigned to Luke, Dhrruv @-mentioned, via `jira-mozart` MCP passthrough (Atlassian MCP cl… — `agent-logs/2026-04-17_palmetto-research-refresh-ticket-batch-and-dhrruv-reconciliation.md`
 - 2026-04-17 — No Luke pile-on without approval — avoids Q1 double-burn pattern. — `agent-logs/2026-04-17_red-door-sang-pricing-prep.md`
 - 2026-04-17 — RedDoor BCC fix applied.** Prior 4/13 send omitted vaibhav/dhrruv/luke from BCC despite the team-visibility rule — `agent-logs/2026-04-17_weekly-updates-all-clients-and-three-replies.md`
+- 2026-04-19 — People: Vaibhav 111 · Matthew 99 · Vivek 81 · Gaurav 72 · Dhrruv 64 · Luke 46 · Connor 8 · Pijush 5 — `agent-logs/2026-04-19-rm-skills-repo-and-brain-backfill.md`

@@ -122,3 +122,5 @@ _Draft seed — Edward to refine._
 - 2026-04-18 — Run the Android sister-prompt to TRUTHLYDEV-1100 that iOS shipped 2026-04-17 (PR #226) — `agent-logs/2026-04-18_truthly-cost-android-1100-shelved.md`
 - 2026-04-18 — Critical path:** push local commit `241f283` on `feature/TRUTHLYDEV-XXXX-web-default-off`, open iOS PR, merge, land in a release users actually run (1.7.8.1 hot… — `agent-logs/2026-04-18_truthly-cost-apr-18-gameplan.md`
 - 2026-04-18 — PR #226 (TRUTHLYDEV-1100 daily token budget) — merged to develop 2026-04-17 22:05 UTC — `agent-logs/2026-04-18_truthly-cost-savings-web-default-off-progress.md`
+- 2026-04-19 — Concepts: TRUTHLYDEV-board 103 · mozart-promotion-pipeline 22 · anthropic-extractor 5 · worktree-cleanup 2 — `agent-logs/2026-04-19-rm-skills-repo-and-brain-backfill.md`
+- 2026-04-19 — TRUTHLYDEV-1134 — Anthropic API key LD override flag — `agent-logs/2026-04-19-truthlydev-1134-anthropic-key-ld-override.md`

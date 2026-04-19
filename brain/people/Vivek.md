@@ -100,3 +100,4 @@ _Draft seed — Edward to refine._
 - 2026-04-16 — Vivek handoff** before EOD today — `agent-logs/2026-04-16_truthly-cost-apr12-15-causation-and-gameplan.md`
 - 2026-04-16 — Vivek Departure — Sweep + Transfer Audit — `agent-logs/2026-04-16_vivek-departure-sweep-transfer-audit.md`
 - 2026-04-17 — Vivek correctly excluded** from Truthly CC per the 2026-04-16 departure memory. — `agent-logs/2026-04-17_weekly-updates-all-clients-and-three-replies.md`
+- 2026-04-19 — `people/Vivek.md` timeline contains the fact that Vivek departed 2026-04-15 — confirm + update compiled-truth. — `agent-logs/2026-04-19-rm-skills-repo-and-brain-backfill.md`

@@ -118,3 +118,4 @@ _Draft seed — Edward to refine._
 - 2026-04-18 — 2026-04-18 UTC — Truthly-web PR #71: second-pass review after Matthew's SEC-1..SEC-4 commit — `agent-logs/2026-04-18-truthly-web-pr71-second-pass-after-matthew-sec-fixes.md`
 - 2026-04-18 — develop HEAD = `d4576a2` (Matthew's merge-conflict fix commit in FeatureFlagService) — `agent-logs/2026-04-18_truthly-1.7.8-submit-and-copy-paste-dark-launch.md`
 - 2026-04-18 — `apr-18-gameplan-prompt.md` says *"Android PR #116 (max-history-messages): OPEN, one stale CHANGES_REQUESTED blocker from Matthew."* Actually **MERGED 2026-04-1… — `agent-logs/2026-04-18_truthly-cost-apr-18-gameplan.md`
+- 2026-04-19 — `people/Matthew.md` (99 mentions) conflates Matthew Ayers (Truthly iOS) with Matthew at Intrinsic Digital — `agent-logs/2026-04-19-rm-skills-repo-and-brain-backfill.md`

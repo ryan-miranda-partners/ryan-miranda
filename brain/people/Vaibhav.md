@@ -130,3 +130,5 @@ _Draft seed — Edward to refine._
 - 2026-04-17 — Thread reply to Vaibhav in #truthly https://ryan-miranda.slack.com/archives/C09JWU9BA8Z/p1776409263335109?thread_ts=1776408411.883029 — `agent-logs/2026-04-17_truthly-cost-throttle-ios-1100-rollout.md`
 - 2026-04-17 — Drafted 4/17 covering the Cantey credentials unblock, Vaibhav's PR #31 UX polish, Dhrruv's PR #32 query cache, GCP project creation, Monday 4/20 10:15 ET Jerome… — `agent-logs/2026-04-17_weekly-updates-all-clients-and-three-replies.md`
 - 2026-04-18 — Tag Vaibhav. — `agent-logs/2026-04-18_truthly-cost-savings-web-default-off-progress.md`
+- 2026-04-19 — Signal-to-noise on Vaibhav pilot (111 mentions) was high enough that LLM summarization isn't needed for V1. — `agent-logs/2026-04-19-rm-skills-repo-and-brain-backfill.md`
+- 2026-04-19 — LD dashboard:** Vaibhav to create the flag once PRs land. — `agent-logs/2026-04-19-truthlydev-1134-anthropic-key-ld-override.md`

@@ -60,3 +60,4 @@ _Draft seed — Edward to refine._
 - 2026-04-14 — Atlantis AT-22 — block 2-3 hours, land split transcription/translation services, get Cajetan/Capreolus output out. — `agent-logs/2026-04-14-daily-priorities-dhrruv-gaurav-luke.md`
 - 2026-04-15 — No Truthly / Palmetto / FCM / Intrinsic / Atlantis / Red Door status checks — `agent-logs/2026-04-15_mozart-ticket-audit-session-close.md`
 - 2026-04-17 — Five more baselines in parallel.** Fired research agents for FCM, Truthly, RedDoor, IntrinsicDigital, Atlantis — `agent-logs/2026-04-17_weekly-updates-all-clients-and-three-replies.md`
+- 2026-04-19 — Clients: Truthly 172 · Mozart 135 · FCM 55 · Palmetto 52 · Atlantis 41 · RedDoor 37 · Intrinsic 19 — `agent-logs/2026-04-19-rm-skills-repo-and-brain-backfill.md`

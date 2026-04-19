@@ -1,5 +1,19 @@
 # Changelog
 
+## 0.3.0 — 2026-04-19
+
+Forward-synth layer. Brain now stays current automatically (when `/synth` is invoked).
+
+- `tools/brain_lib.py` — shared helpers (entity roster, extraction fns, rendering) used by both backfill and synth.
+- `tools/synth-brain.py` — incremental, watermark-based forward synthesizer. Reads agent-logs newer than `~/.rm/synth-watermark`, appends NEW timeline entries to relevant `brain/` pages, advances watermark. Idempotent — re-runs skip already-seen lines.
+- `tools/backfill-brain.py` refactored to share logic via `brain_lib.py`.
+- `skills/synth/SKILL.md` — `/synth` slash command. Runs the tool, reports changes, surfaces new-entity candidates for manual roster review.
+- `skills/CLAUDE.md` updated: added Brain section + brain-first lookup note.
+
+**Validation:** Tested synth with `--since 2026-04-17` — processed 15 logs, added 20 timeline entries across 17 entity pages. Dedup caught pre-existing entries (0 duplicates). Watermark advanced to 2026-04-19.
+
+**Hook-free by design.** `/synth` is manually invoked — no SessionEnd hook yet. Auto-hook deferred until shape is validated over a few weeks.
+
 ## 0.2.0 — 2026-04-19
 
 Added the compiled-truth brain layer (draft).

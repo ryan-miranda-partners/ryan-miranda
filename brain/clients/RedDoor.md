@@ -56,3 +56,4 @@ _Draft seed — Edward to refine._
 - 2026-04-16 — Gmail outbound check (Gate 1) completed — confirmed Edward already replied to Jerome (Palmetto) and Sang (Red Door). — `agent-logs/2026-04-16_vivek-departure-sweep-transfer-audit.md`
 - 2026-04-17 — Red Door — Sang Meeting Prep & Pricing Reset — `agent-logs/2026-04-17_red-door-sang-pricing-prep.md`
 - 2026-04-17 — Five more baselines in parallel.** Fired research agents for FCM, Truthly, RedDoor, IntrinsicDigital, Atlantis — `agent-logs/2026-04-17_weekly-updates-all-clients-and-three-replies.md`
+- 2026-04-19 — Clients: Truthly 172 · Mozart 135 · FCM 55 · Palmetto 52 · Atlantis 41 · RedDoor 37 · Intrinsic 19 — `agent-logs/2026-04-19-rm-skills-repo-and-brain-backfill.md`

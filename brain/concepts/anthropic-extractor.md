@@ -24,3 +24,4 @@ _Draft seed — Edward to refine._
 - 2026-04-04 — Anthropic Extractor — Mozart Integration Session — `agent-logs/2026-04-04_anthropic-extractor-mozart-integration.md`
 - 2026-04-05 — Instructions at `~/Documents/rm-ops/truthly/anthropic-extractor/MOZART_INTEGRATION.md` — `agent-logs/2026-04-05_tap-anthropic-admin-repo-setup.md`
 - 2026-04-13 — `truthly/anthropic-extractor/` — dlt-based extractor, local copy. — `agent-logs/2026-04-13_truthly-mixpanel-cost-observability.md`
+- 2026-04-19 — Concepts: TRUTHLYDEV-board 103 · mozart-promotion-pipeline 22 · anthropic-extractor 5 · worktree-cleanup 2 — `agent-logs/2026-04-19-rm-skills-repo-and-brain-backfill.md`

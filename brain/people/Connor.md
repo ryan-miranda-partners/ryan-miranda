@@ -27,3 +27,4 @@ _Draft seed — Edward to refine._
 - 2026-04-12 — Connor Dailey is also now embedded at Truthly (seen in group DMs). — `agent-logs/2026-04-12_truthly-auth-better-auth-vs-cognito-review.md`
 - 2026-04-12 — TRUTHLYDEV-541 "Backend Consolidation & AI Features Platform" — Epic, To Do, priority Medium, reporter Connor Dailey, assignee Vivek Mudgal — `agent-logs/2026-04-12_truthly-rovo-filing-corrections-gameplan.md`
 - 2026-04-13 — $20M FCM hurdle PnL bug** — Jan 14, 2026 email from Mark Lovecchio to Connor: *"YTD and ITD hurdle pnl are too high by $20m each — `agent-logs/2026-04-13-dogoodwork-podcast-prep.md`
+- 2026-04-19 — People: Vaibhav 111 · Matthew 99 · Vivek 81 · Gaurav 72 · Dhrruv 64 · Luke 46 · Connor 8 · Pijush 5 — `agent-logs/2026-04-19-rm-skills-repo-and-brain-backfill.md`

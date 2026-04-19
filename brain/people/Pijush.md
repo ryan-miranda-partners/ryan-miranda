@@ -24,3 +24,4 @@ _Draft seed — Edward to refine._
 - 2026-04-05 — | MOZ-950 | Assigned to Pijush (not on team) — `agent-logs/2026-04-05_auth-401-fix-staging-promotion-board-audit.md`
 - 2026-04-09 — mozart@ryan-miranda.com, ops@ryan-miranda.com, pijush@ryan-miranda.com, — `agent-logs/2026-04-09_user-cleanup-qdrant-investigation.md`
 - 2026-04-11 — | pijush@ryan-miranda.com | admin | 227 | Oct 7, 2025 | — `agent-logs/2026-04-11_user-cleanup-execution.md`
+- 2026-04-19 — People: Vaibhav 111 · Matthew 99 · Vivek 81 · Gaurav 72 · Dhrruv 64 · Luke 46 · Connor 8 · Pijush 5 — `agent-logs/2026-04-19-rm-skills-repo-and-brain-backfill.md`

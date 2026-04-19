@@ -83,3 +83,4 @@ _Draft seed — Edward to refine._
 - 2026-04-17 — Dhrruv does not fill worklogs on this project. — `agent-logs/2026-04-17_red-door-sang-pricing-prep.md`
 - 2026-04-17 — TRUTHLYDEV-1101 — needs Dhrruv/Gaurav to verify new key is live before revoke — `agent-logs/2026-04-17_truthly-cost-throttle-ios-1100-rollout.md`
 - 2026-04-17 — Trigger:** Ed asked for a baseline weekly draft for each client, then three reply drafts (Dhrruv's Keith note, Jenny at Rakugo, Hadley at Griscom). — `agent-logs/2026-04-17_weekly-updates-all-clients-and-three-replies.md`
+- 2026-04-19 — People: Vaibhav 111 · Matthew 99 · Vivek 81 · Gaurav 72 · Dhrruv 64 · Luke 46 · Connor 8 · Pijush 5 — `agent-logs/2026-04-19-rm-skills-repo-and-brain-backfill.md`

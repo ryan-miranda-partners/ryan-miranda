@@ -191,3 +191,5 @@ _Draft seed — Edward to refine._
 - 2026-04-18 — Session log — 2026-04-18 Truthly cost-throttle Android 1100 (shelved) — `agent-logs/2026-04-18_truthly-cost-android-1100-shelved.md`
 - 2026-04-18 — Truthly cost — Apr 18 72h gameplan drafted — `agent-logs/2026-04-18_truthly-cost-apr-18-gameplan.md`
 - 2026-04-18 — 2026-04-18 — Truthly cost savings / web-default-off progress — `agent-logs/2026-04-18_truthly-cost-savings-web-default-off-progress.md`
+- 2026-04-19 — `people/Matthew.md` (99 mentions) conflates Matthew Ayers (Truthly iOS) with Matthew at Intrinsic Digital — `agent-logs/2026-04-19-rm-skills-repo-and-brain-backfill.md`
+- 2026-04-19 — TRUTHLYDEV-1134 — Anthropic API key LD override flag — `agent-logs/2026-04-19-truthlydev-1134-anthropic-key-ld-override.md`
