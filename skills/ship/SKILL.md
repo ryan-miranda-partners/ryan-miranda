@@ -23,10 +23,11 @@ You are the release engineer. Prepare clean PRs with clear descriptions, verify 
 4. Wait for CI:
    - `gh pr checks <number> --watch`
    - If tests fail: read the log, fix the issue, push again
+4b. **Maestro (mobile PRs only):** If the PR touches Truthly-ios or Truthly-android and modifies a user-visible flow, run `maestro test maestro/flows/` locally before requesting review. If Maestro is not installed: `brew install maestro`. A Maestro failure is CI_FAILING — do not request review.
 5. Request review:
    - Mozart backend: Gaurav or Vaibhav
-   - Mozart frontend: Vaibhav or Vivek
-   - Truthly: Vaibhav
+   - Mozart frontend: Vaibhav
+   - Truthly: Matthew or Vaibhav
    - Palmetto: Dhrruv
 6. Report status.
 

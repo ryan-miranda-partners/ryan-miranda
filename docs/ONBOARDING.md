@@ -11,13 +11,15 @@ A set of Claude Code skills + a knowledge layer, tuned for Ryan-Miranda Partners
 ## Install (30 seconds)
 
 ```bash
-git clone git@github.com:ryan-miranda-partners/rm-skills.git ~/Documents/rm-skills
-cd ~/Documents/rm-skills && ./setup
+git clone https://github.com/ryan-miranda-partners/ryan-miranda.git ~/Documents/ryan-miranda
+cd ~/Documents/ryan-miranda && ./setup
 ```
 
 Opens a Claude Code session, type `/state`. If you see a state snapshot, you're in.
 
-Requires: Claude Code already installed, Python 3.12+, `gh` auth to the `ryan-miranda-partners` org.
+Requires: Claude Code already installed, Python 3.12+, `gh` auth to the `ryan-miranda-partners` org, Maestro CLI (`brew install maestro`) for mobile E2E testing.
+
+For credentials (API keys, MCP servers, Slack/Jira/Figma tokens) see `docs/CREDENTIALS.md`.
 
 ## First-day skills to try
 

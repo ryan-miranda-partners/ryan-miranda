@@ -121,8 +121,8 @@ Flag any of the following during review:
 
 ### Platform Test Frameworks
 
-- **iOS:** XCTest (unit), XCUITest (UI), swift-snapshot-testing (visual regression).
-- **Android:** Jest (unit), React Native Testing Library (component), Detox (E2E).
+- **iOS:** XCTest (unit), swift-snapshot-testing (visual regression), Maestro (E2E flows in `maestro/flows/`).
+- **Android:** Jest (unit), React Native Testing Library (component), Maestro (E2E flows in `maestro/flows/`).
 - **Web:** Vitest or Jest (unit), React Testing Library (component), Playwright (E2E).
 
 ### Testing Rules
@@ -199,3 +199,4 @@ Flag any of the following during review:
 - [ ] Accessibility identifiers on new interactive elements?
 - [ ] Code coverage at or above threshold?
 - [ ] No magic numbers or unexplained literals?
+- [ ] New user-visible flow has a Maestro flow file in `maestro/flows/`?
