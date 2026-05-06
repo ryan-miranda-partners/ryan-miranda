@@ -1,4 +1,4 @@
-# ryan-miranda
+# maestro-hub
 
 Claude Code skills, brain, and playbooks for Ryan-Miranda Partners. Covers dev workflows (`/review`, `/ship`, `/plan`, `/cso`), ops (`/sweep`, `/standup`, `/priorities`, `/draft`), safety (`/careful`, `/verify`, `/guard-truthly`), and knowledge synthesis (`/synth`).
 
@@ -20,8 +20,8 @@ claude --version                       # confirm it works
 ### 2. Clone and run setup
 
 ```bash
-git clone https://github.com/ryan-miranda-partners/ryan-miranda.git ~/Documents/ryan-miranda
-cd ~/Documents/ryan-miranda && ./setup
+git clone https://github.com/ryan-miranda-partners/maestro-hub.git ~/Documents/maestro-hub
+cd ~/Documents/maestro-hub && ./setup
 ```
 
 `setup` symlinks `skills/` into `~/.claude/skills/rm` so Claude Code discovers the skills globally. Done once, works in every project.
@@ -30,7 +30,7 @@ Verify it worked:
 
 ```bash
 ./setup --check
-# state: symlink — ~/.claude/skills/rm -> ~/Documents/ryan-miranda/skills
+# state: symlink — ~/.claude/skills/rm -> ~/Documents/maestro-hub/skills
 ```
 
 ### 3. Set up credentials (Slack, Jira, GitHub)
@@ -99,7 +99,7 @@ Full skill list: [`skills/CLAUDE.md`](skills/CLAUDE.md)
 ## Update
 
 ```bash
-cd ~/Documents/ryan-miranda && git pull
+cd ~/Documents/maestro-hub && git pull
 ./setup --check    # symlink stays valid after pull — no re-run needed
 ```
 

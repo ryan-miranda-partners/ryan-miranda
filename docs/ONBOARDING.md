@@ -11,8 +11,8 @@ A set of Claude Code skills + a knowledge layer, tuned for Ryan-Miranda Partners
 ## Install (30 seconds)
 
 ```bash
-git clone https://github.com/ryan-miranda-partners/ryan-miranda.git ~/Documents/ryan-miranda
-cd ~/Documents/ryan-miranda && ./setup
+git clone https://github.com/ryan-miranda-partners/maestro-hub.git ~/Documents/maestro-hub
+cd ~/Documents/maestro-hub && ./setup
 ```
 
 Opens a Claude Code session, type `/state`. If you see a state snapshot, you're in.

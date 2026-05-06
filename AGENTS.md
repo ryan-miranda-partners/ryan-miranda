@@ -13,8 +13,8 @@ Skills, brain, and playbooks for Ryan-Miranda Partners dev + ops workflows. Inst
 ## Install
 
 ```bash
-git clone https://github.com/ryan-miranda-partners/ryan-miranda.git ~/Documents/ryan-miranda
-cd ~/Documents/ryan-miranda && ./setup
+git clone https://github.com/ryan-miranda-partners/maestro-hub.git ~/Documents/maestro-hub
+cd ~/Documents/maestro-hub && ./setup
 ```
 
 ## Credentials

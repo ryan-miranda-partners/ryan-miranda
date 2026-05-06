@@ -81,14 +81,14 @@ export ANTHROPIC_API_KEY=sk-ant-...
 ## 4. Install the skills
 
 ```bash
-git clone https://github.com/ryan-miranda-partners/ryan-miranda.git ~/Documents/ryan-miranda
-cd ~/Documents/ryan-miranda && ./setup
+git clone https://github.com/ryan-miranda-partners/maestro-hub.git ~/Documents/maestro-hub
+cd ~/Documents/maestro-hub && ./setup
 ```
 
 Then start Claude Code from your working repo:
 ```bash
 cd ~/Documents/<your-project>
-source ~/Documents/ryan-miranda/.env   # if you stored creds there
+source ~/Documents/maestro-hub/.env   # if you stored creds there
 claude
 ```
 
