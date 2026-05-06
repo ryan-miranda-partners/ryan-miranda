@@ -1,75 +1,143 @@
-# rm-skills
+# ryan-miranda
 
-Claude Code skills + compiled-truth brain for Ryan-Miranda Partners ops + dev workflows. 22 skills covering team management (`/sweep`, `/standup`, `/priorities`, `/draft`), code lifecycle (`/review`, `/ship`, `/plan`, `/cso`), safety (`/careful`, `/freeze`, `/guard-truthly`, `/verify`), and brain synthesis (`/synth`).
+Claude Code skills, brain, and playbooks for Ryan-Miranda Partners. Covers dev workflows (`/review`, `/ship`, `/plan`, `/cso`), ops (`/sweep`, `/standup`, `/priorities`, `/draft`), safety (`/careful`, `/verify`, `/guard-truthly`), and knowledge synthesis (`/synth`).
 
-## Start here
+## Install — 3 steps
 
-- **Daily use:** [`docs/GUIDE.md`](docs/GUIDE.md)
-- **Onboarding a teammate:** [`docs/ONBOARDING.md`](docs/ONBOARDING.md)
-- **When things break:** [`docs/TROUBLESHOOTING.md`](docs/TROUBLESHOOTING.md)
-- **Full skill table + principles:** [`skills/CLAUDE.md`](skills/CLAUDE.md)
-- **Brain schema:** [`brain/README.md`](brain/README.md)
-- **Sensitivity + handling:** [`SECURITY.md`](SECURITY.md)
-
-## Install
+### 1. Install Claude Code
 
 ```bash
-git clone git@github.com:ryan-miranda-partners/rm-skills.git ~/Documents/rm-skills
-cd ~/Documents/rm-skills && ./setup
+npm install -g @anthropic-ai/claude-code
 ```
 
-`setup` symlinks `skills/` into `~/.claude/skills/rm` so Claude Code discovers the skills globally. Any existing `~/.claude/skills/rm` is moved to `~/.claude/skills/rm.backup-<timestamp>` first.
+Then authenticate with your Anthropic API key (get one at console.anthropic.com):
 
-### Requires
-Claude Code + Python 3.10+ (for the brain tools). No other runtime dependencies.
-
-### Update / uninstall
 ```bash
-cd ~/Documents/rm-skills && git pull       # update
-./setup --check                            # confirm symlink state
-./setup --rollback                         # restore backup, remove symlink
+export ANTHROPIC_API_KEY=sk-ant-...   # add to ~/.zshrc to persist
+claude --version                       # confirm it works
 ```
+
+### 2. Clone and run setup
+
+```bash
+git clone https://github.com/ryan-miranda-partners/ryan-miranda.git ~/Documents/ryan-miranda
+cd ~/Documents/ryan-miranda && ./setup
+```
+
+`setup` symlinks `skills/` into `~/.claude/skills/rm` so Claude Code discovers the skills globally. Done once, works in every project.
+
+Verify it worked:
+
+```bash
+./setup --check
+# state: symlink — ~/.claude/skills/rm -> ~/Documents/ryan-miranda/skills
+```
+
+### 3. Set up credentials (Slack, Jira, GitHub)
+
+```bash
+cp .env.example .env          # fill in your keys
+cp mcp.json.example .mcp.json # MCP server config — never commit this
+```
+
+See [`docs/CREDENTIALS.md`](docs/CREDENTIALS.md) for where to get each key (Jira API tokens, Slack bot token, GitHub, Figma).
+
+Also authenticate GitHub CLI if you haven't:
+
+```bash
+gh auth login
+```
+
+---
+
+## Using skills in Claude Code
+
+Open a terminal in any project directory and start Claude Code:
+
+```bash
+cd ~/Documents/<your-project>
+claude
+```
+
+Type a skill command at the prompt:
+
+```
+/sweep              — scan Slack + Gmail for blockers since last check
+/review             — multi-pass code review on your current diff or a PR number
+/ship               — prepare PR, wait for CI, request the right reviewer
+/plan               — product + engineering review before building something new
+/priorities         — generate per-person priority messages for the team
+/state              — snapshot of open PRs, tickets, recent deploys
+/verify             — adversarial fact-check before sending anything to a client
+/careful            — gate before any destructive operation
+```
+
+Full skill list: [`skills/CLAUDE.md`](skills/CLAUDE.md)
+
+### Example workflow
+
+```
+> /sweep
+[scans Slack + Gmail, surfaces blockers]
+
+> vaibhav has changes requested on PR 233 — action them and /verify the steps, then run adversarial agents
+
+> /ship
+[prepares PR, checks CI, runs Maestro for mobile PRs, requests review]
+```
+
+### Switching models mid-session
+
+```
+/model claude-opus-4-7        # Opus — most capable, use for planning and complex review
+/model claude-sonnet-4-6      # Sonnet — default, balanced
+/model claude-haiku-4-5-20251001  # Haiku — fastest, use for quick lookups
+```
+
+---
+
+## Update
+
+```bash
+cd ~/Documents/ryan-miranda && git pull
+./setup --check    # symlink stays valid after pull — no re-run needed
+```
+
+---
+
+## Quick reference
+
+| Docs | Link |
+|------|------|
+| Daily workflow | [`docs/GUIDE.md`](docs/GUIDE.md) |
+| New teammate setup | [`docs/ONBOARDING.md`](docs/ONBOARDING.md) |
+| Credential setup | [`docs/CREDENTIALS.md`](docs/CREDENTIALS.md) |
+| Truthly engineering standards | [`docs/truthly-agent.md`](docs/truthly-agent.md) |
+| When things break | [`docs/TROUBLESHOOTING.md`](docs/TROUBLESHOOTING.md) |
+| Full skill table + principles | [`skills/CLAUDE.md`](skills/CLAUDE.md) |
+| Builder philosophy | [`ETHOS.md`](ETHOS.md) |
+| Multi-agent / non-Claude setup | [`AGENTS.md`](AGENTS.md) |
+| Security + what stays outside this repo | [`SECURITY.md`](SECURITY.md) |
 
 ## Layout
 
 ```
-rm-skills/
-  skills/               — 22 SKILL.md folders (symlinked into ~/.claude/skills/rm)
-    CLAUDE.md           — principles, mandatory gates, full skill table
-    careful/ review/ ship/ cso/ plan/ freeze/        (gstack-derived)
-    sweep/ standup/ priorities/ draft/ state/         (RM ops core)
-    verify/ guard-truthly/ client-recon/ synth/ ...    (RM-specific)
-    memory/             — shared reference files (not skills)
-    patterns/           — shared reference files (not skills)
-  brain/                — compiled-truth pages
-    people/ clients/ concepts/
-    README.md           — schema, tier rules, brain-first lookup
-  tools/                — scripts
-    backfill-brain.py   — full regenerate (destructive — use with care)
-    synth-brain.py      — incremental watermark-based synth
-    brain_lib.py        — shared helpers
-    validate-skills.sh  — frontmatter + name-matches-dir check
-  docs/
-    GUIDE.md            — daily playbook
-    TROUBLESHOOTING.md  — symptom → fix
-    ONBOARDING.md       — new-teammate intro
-    README.md           — docs index
-  setup                 — install / rollback script
-  VERSION
-  CHANGELOG.md
-  README.md             — this file
-  LICENSE SECURITY.md
+ryan-miranda/
+  skills/          — skill folders (symlinked into ~/.claude/skills/rm)
+    CLAUDE.md      — principles, mandatory gates, full skill table
+  brain/           — compiled-truth pages (people/, clients/, concepts/)
+  docs/            — GUIDE, CREDENTIALS, ONBOARDING, TROUBLESHOOTING, truthly-agent
+  tools/           — brain scripts, skill validator
+  AGENTS.md        — platform-agnostic entry (Cursor, Codex, etc.)
+  ETHOS.md         — builder philosophy
+  .env.example     — credential template
+  mcp.json.example — MCP server config template (copy to .mcp.json, never commit)
+  setup            — install / rollback / check script
 ```
 
-## Conventions
+## Rules
 
-- Every skill lives in its own folder under `skills/` with a `SKILL.md`.
-- Frontmatter fields: `name` (required, matches dir), `description` (required), `allowed-tools` + `hooks` (optional).
-- gstack-derived skills carry an "## Adapted from" footer citing source + modifications.
-- Skills can read shared references from `skills/memory/` and `skills/patterns/`, and compiled-truth from `brain/`.
-- No emojis unless explicitly requested.
 - No Claude attribution in commits, PRs, or skill content.
-
-## Design rationale
-
-Research that led to this structure: `~/Documents/research/mozart-infra/` (7 docs, outside this repo). Covers gstack / gbrain / nimbalyst analysis and the unified-infra proposal.
+- No secrets in this repo — credentials live in `.env` (gitignored).
+- Don't edit `brain/` pages directly — changes go through `/synth` or a PR to Edward.
+- Don't push directly to `main` — open a PR for any skill change.
