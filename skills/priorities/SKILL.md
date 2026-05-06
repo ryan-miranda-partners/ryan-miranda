@@ -31,12 +31,10 @@ Before drafting or presenting priorities, check `memory/correction_tracker.md`:
 2. TRUTHLYDEV-800 -- [description].
 3. [other item]
 
-**Vivek**
-1. ...
 ```
 
 ## Post Order
-Vaibhav, Vivek, Gaurav, Dhrruv, Luke.
+Vaibhav, Gaurav, Dhrruv, Luke.
 
 ## Stop Conditions
 - If missing context for a person's current work, ask: "What should [person] focus on?"

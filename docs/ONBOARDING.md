@@ -1,10 +1,10 @@
-# Onboarding — rm-skills
+# Onboarding — maestro-hub
 
-For a new teammate (Dhrruv, Luke, future hire) getting access to rm-skills for the first time.
+For a new teammate (Dhrruv, Luke, future hire) getting access to maestro-hub for the first time.
 
-## What rm-skills is
+## What maestro-hub is
 
-A set of Claude Code skills + a knowledge layer, tuned for Ryan-Miranda Partners ops + dev workflows. When you type `/<skill>` in Claude Code, it runs a pre-defined procedure tailored to how Edward actually works. 22 skills today.
+A set of Claude Code skills + a knowledge layer, tuned for Ryan-Miranda Partners ops + dev workflows. When you type `/<skill>` in Claude Code, it runs a pre-defined procedure tailored to how Edward actually works. 23 skills today.
 
 **What it is NOT:** a Claude Code fork, an autonomous agent, or a replacement for anything you're already doing. It's a shortcut layer.
 

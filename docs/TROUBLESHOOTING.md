@@ -8,11 +8,11 @@ Check the symlink:
 ```bash
 ls -la ~/.claude/skills/rm
 ```
-Expected: `lrwxr-xr-x ... rm -> /Users/edward/Documents/rm-skills/skills`
+Expected: `lrwxr-xr-x ... rm -> /Users/edward/Documents/maestro-hub/skills`
 
 If missing or pointing elsewhere:
 ```bash
-cd ~/Documents/rm-skills && ./setup
+cd ~/Documents/maestro-hub && ./setup
 ```
 
 If the symlink exists but the skill still doesn't load, reload Claude Code (new session). Skill registry is session-scoped.
@@ -20,7 +20,7 @@ If the symlink exists but the skill still doesn't load, reload Claude Code (new 
 ## "setup --check shows unexpected backup"
 
 ```bash
-~/Documents/rm-skills/setup --check
+~/Documents/maestro-hub/setup --check
 ```
 If you see `backups available (most recent first): ...`, those are previous `~/.claude/skills/rm` directories the setup script moved aside. Safe to delete if the current install is working:
 ```bash
@@ -36,7 +36,7 @@ Common causes:
 
 Fix the frontmatter, rerun:
 ```bash
-~/Documents/rm-skills/tools/validate-skills.sh
+~/Documents/maestro-hub/tools/validate-skills.sh
 ```
 
 ## "synth-brain.py says no new logs but I wrote one today"
@@ -46,11 +46,11 @@ The watermark tracks dates, not timestamps. If you wrote a log dated today AND r
 Workarounds:
 ```bash
 # Process today's logs explicitly:
-~/Documents/rm-skills/tools/synth-brain.py --since 2026-04-18   # yesterday's date
+~/Documents/maestro-hub/tools/synth-brain.py --since 2026-04-18   # yesterday's date
 
 # Or reset and let it reprocess (dedup prevents duplicates):
-~/Documents/rm-skills/tools/synth-brain.py --reset
-~/Documents/rm-skills/tools/synth-brain.py
+~/Documents/maestro-hub/tools/synth-brain.py --reset
+~/Documents/maestro-hub/tools/synth-brain.py
 ```
 
 This is a known V1 limitation. Fix TBD — move watermark to filename-set-based tracking.
@@ -67,7 +67,7 @@ Shouldn't happen — dedup matches exact lines. If you see it:
 
 Backfill IS destructive — it regenerates pages from scratch. Recovery:
 ```bash
-cd ~/Documents/rm-skills && git log --oneline brain/   # find the last commit with your edits
+cd ~/Documents/maestro-hub && git log --oneline brain/   # find the last commit with your edits
 git checkout <sha> -- brain/path/to/page.md            # restore one page
 # OR
 git checkout <sha> -- brain/                           # restore all brain pages
@@ -78,7 +78,7 @@ Lesson: commit brain edits before running `backfill-brain.py`.
 
 Use the scoped backfill:
 ```bash
-~/Documents/rm-skills/tools/backfill-brain.py --entity Vaibhav
+~/Documents/maestro-hub/tools/backfill-brain.py --entity Vaibhav
 ```
 This rewrites only that entity's page. You'll lose compiled-truth edits on that one page — so commit first, then decide whether to merge the new draft with your prior assessment.
 
@@ -111,8 +111,8 @@ It's only a suggestion — it won't auto-add to `brain_lib.py`. If you don't wan
 ## "I'm on a new machine and nothing works"
 
 1. Install Claude Code.
-2. `git clone git@github.com:ryan-miranda-partners/rm-skills.git ~/Documents/rm-skills`
-3. `cd ~/Documents/rm-skills && ./setup`
+2. `git clone https://github.com/ryan-miranda-partners/maestro-hub.git ~/Documents/maestro-hub`
+3. `cd ~/Documents/maestro-hub && ./setup`
 4. Open a new session. Type `/sweep`. If that resolves, you're in.
 5. Agent-logs don't transfer automatically — they live in `~/Documents/agent-logs/` on the original machine. If you want the brain to know about pre-move history, rsync agent-logs and run `./tools/synth-brain.py --reset && ./tools/synth-brain.py`.
 
@@ -128,7 +128,7 @@ If yes and still not loading, check for a typo in `name:` — must match dir nam
 
 Rare. If the brain is truly corrupt (many bad edits, inconsistent format, lost trust):
 ```bash
-cd ~/Documents/rm-skills
+cd ~/Documents/maestro-hub
 git checkout -- brain/                   # restore all from git
 # or start over:
 rm -rf brain/people brain/clients brain/concepts

@@ -18,7 +18,7 @@
         "JIRA_API_TOKEN": "${JIRA_MOZART_API_TOKEN}"
       }
     },
-    "slack": {
+    "claude_ai_Slack": {
       "command": "npx",
       "args": ["-y", "@modelcontextprotocol/server-slack"],
       "env": {
@@ -26,7 +26,7 @@
         "SLACK_TEAM_ID": "${SLACK_TEAM_ID}"
       }
     },
-    "google-drive": {
+    "claude_ai_Google_Drive": {
       "command": "npx",
       "args": ["-y", "@modelcontextprotocol/server-gdrive"],
       "env": {
@@ -35,7 +35,25 @@
         "GOOGLE_REFRESH_TOKEN": "${GOOGLE_REFRESH_TOKEN}"
       }
     },
-    "figma": {
+    "claude_ai_Gmail": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-gmail"],
+      "env": {
+        "GOOGLE_CLIENT_ID": "${GOOGLE_CLIENT_ID}",
+        "GOOGLE_CLIENT_SECRET": "${GOOGLE_CLIENT_SECRET}",
+        "GOOGLE_REFRESH_TOKEN": "${GOOGLE_REFRESH_TOKEN}"
+      }
+    },
+    "claude_ai_Atlassian": {
+      "command": "npx",
+      "args": ["-y", "mcp-server-atlassian"],
+      "env": {
+        "ATLASSIAN_BASE_URL": "${JIRA_MOZART_BASE_URL}",
+        "ATLASSIAN_EMAIL": "${JIRA_MOZART_EMAIL}",
+        "ATLASSIAN_API_TOKEN": "${JIRA_MOZART_API_TOKEN}"
+      }
+    },
+    "plugin_figma_figma": {
       "command": "npx",
       "args": ["-y", "mcp-server-figma"],
       "env": {

@@ -31,7 +31,6 @@ Source: compiled from 92 raw feedback memories (2026-04-05 audit). Raw files are
 
 ### Person-specific
 - [ ] **Gaurav:** Warm, supportive tone. He's part-time with a second job. Empathy, not accountability pressure.
-- [ ] **Vivek:** Direct. Full-time with accountability issues. Verify claims against GitHub before crediting.
 - [ ] **Luke:** Supportive. Junior. Frame as "sync with Dhrruv first thing" not standalone items.
 - [ ] **Dhrruv:** Trust. Highest output. Delegate to.
 - [ ] **Vaibhav:** Reliable. Delegate to.

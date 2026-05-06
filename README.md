@@ -122,7 +122,7 @@ cd ~/Documents/maestro-hub && git pull
 ## Layout
 
 ```
-ryan-miranda/
+maestro-hub/
   skills/          — skill folders (symlinked into ~/.claude/skills/rm)
     CLAUDE.md      — principles, mandatory gates, full skill table
   brain/           — compiled-truth pages (people/, clients/, concepts/)

@@ -70,32 +70,32 @@ Open each Tier-1 brain page (`brain/people/Vaibhav.md`, etc.). Re-read the timel
 
 ### Running synth manually
 ```bash
-~/Documents/rm-skills/tools/synth-brain.py              # normal run
-~/Documents/rm-skills/tools/synth-brain.py --dry-run    # preview
-~/Documents/rm-skills/tools/synth-brain.py --since 2026-04-01   # override watermark
-~/Documents/rm-skills/tools/synth-brain.py --reset      # clear watermark
+~/Documents/maestro-hub/tools/synth-brain.py              # normal run
+~/Documents/maestro-hub/tools/synth-brain.py --dry-run    # preview
+~/Documents/maestro-hub/tools/synth-brain.py --since 2026-04-01   # override watermark
+~/Documents/maestro-hub/tools/synth-brain.py --reset      # clear watermark
 ```
 
 ### Running backfill (rarely — only for full rebuilds)
 ```bash
-~/Documents/rm-skills/tools/backfill-brain.py           # rewrites every brain page
-~/Documents/rm-skills/tools/backfill-brain.py --entity Vaibhav   # one entity
+~/Documents/maestro-hub/tools/backfill-brain.py           # rewrites every brain page
+~/Documents/maestro-hub/tools/backfill-brain.py --entity Vaibhav   # one entity
 ```
 **Warning:** backfill OVERWRITES brain pages — your compiled-truth edits get lost. Only run if you explicitly want a clean regenerate (e.g. you added a new entity to the roster). Commit brain changes before running.
 
 ### Validating skills after editing one
 ```bash
-~/Documents/rm-skills/tools/validate-skills.sh
+~/Documents/maestro-hub/tools/validate-skills.sh
 ```
 
 ### Rolling back the symlink install
 ```bash
-~/Documents/rm-skills/setup --rollback
+~/Documents/maestro-hub/setup --rollback
 ```
 
 ### Checking install state
 ```bash
-~/Documents/rm-skills/setup --check
+~/Documents/maestro-hub/setup --check
 ```
 
 ---
@@ -145,19 +145,19 @@ Open each Tier-1 brain page (`brain/people/Vaibhav.md`, etc.). Re-read the timel
 
 ### Fresh machine
 ```bash
-git clone git@github.com:ryan-miranda-partners/rm-skills.git ~/Documents/rm-skills
-cd ~/Documents/rm-skills && ./setup
+git clone https://github.com/ryan-miranda-partners/maestro-hub.git ~/Documents/maestro-hub
+cd ~/Documents/maestro-hub && ./setup
 ```
 
 ### Update to latest
 ```bash
-cd ~/Documents/rm-skills && git pull
+cd ~/Documents/maestro-hub && git pull
 ./setup --check   # confirm symlink still points at the right place
 ```
 
 ### Uninstall
 ```bash
-~/Documents/rm-skills/setup --rollback   # restores most recent backup
+~/Documents/maestro-hub/setup --rollback   # restores most recent backup
 ```
 Or manually: `rm ~/.claude/skills/rm` (drops the symlink; nothing else to clean).
 
@@ -166,14 +166,14 @@ Or manually: `rm ~/.claude/skills/rm` (drops the symlink; nothing else to clean)
 ## Key directories
 
 ```
-~/Documents/rm-skills/                     (this repo)
+~/Documents/maestro-hub/                     (this repo)
   skills/         — SKILL.md files (symlinked to ~/.claude/skills/rm)
   brain/          — compiled-truth pages
   tools/          — scripts (backfill, synth, validate)
   docs/           — this guide + troubleshooting + onboarding
 ~/Documents/agent-logs/                    (session narrative, untouched by rm-skills)
 ~/Documents/rm-ops/                        (ops workspace — client-updates/, daily/, scripts/)
-~/.claude/skills/rm/                       (symlink → ~/Documents/rm-skills/skills)
+~/.claude/skills/rm/                       (symlink → ~/Documents/maestro-hub/skills)
 ~/.claude/projects/<hashed>/memory/        (per-project auto-memory, unchanged by rm-skills)
 ~/.rm/synth-watermark                      (date of most recent processed agent-log)
 ```

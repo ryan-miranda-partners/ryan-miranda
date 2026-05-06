@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# rm-skills installer.
+# maestro-hub installer.
 #   ./setup               — symlink skills/ into ~/.claude/skills/rm (default)
 #   ./setup --rollback    — restore the most recent backup, removing the symlink
 #   ./setup --check       — print current install state, no changes

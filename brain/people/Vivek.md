@@ -6,16 +6,11 @@ last_reviewed: 2026-04-19
 
 # Vivek
 
-## Compiled truth (as of 2026-04-19)
+## Compiled truth (as of 2026-05-05)
 
-_Draft seed — Edward to refine._
-
-- Delhi team engineer. Truthly backend.
+- Delhi team engineer. Truthly backend. **Departed 2026-04-15.**
+- No longer on team. Skip in priorities, DMs, and PR reviewer selection.
 - Mention count in agent-logs: **81** (across 2026-03-15 → 2026-04-17)
-- Role / relationship: _TBD_
-- Current focus: _TBD_
-- Working style: _TBD_
-- Risks / watch-outs: _TBD_
 
 ## Timeline
 

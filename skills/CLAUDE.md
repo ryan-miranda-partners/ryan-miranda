@@ -76,7 +76,7 @@ These gates apply to ALL skills. Run validation searches as PARALLEL tool calls 
 The `brain/` layer at `~/Documents/rm-skills/brain/` holds compiled-truth pages for people, clients, concepts. Read the relevant brain page BEFORE hitting Slack/Jira/GitHub for stable facts (roles, recipients, context). See `brain/README.md` for schema + tier rules.
 
 ## Shared References
-- Team: Vaibhav (lead), Vivek, Gaurav (full-time May), Dhrruv, Luke, Pijush (full-time May), Matthew, Connor
+- Team: Vaibhav (lead), Gaurav, Dhrruv, Luke, Pijush, Matthew, Connor
 - Channels: #everyone CH35Q9G7Q, #engineering C0A2DR657HR, #truthly C09JWU9BA8Z, #palmetto C0A5LCJK2AK, #mozart C060DG91VC0, #fernbridge C06L9HBLERH, #intrinsic-digital C0A5S7D1FA4, #atlantis C0A5FEFKG7M
 - Repos: ryan-miranda-partners/{mozart-backend, mozart-frontend, mozart-rag, mozart_mcp, mozart-landing, palmetto, palmetto-infra}; Truthly-App/{ios, android, backend}
 - Clients: See ~/Documents/rm-ops/client-updates/README.md for recipients and formatting
